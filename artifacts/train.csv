@@ -1,0 +1,1083 @@
+wa_id,wa_sender_phone,wa_is_business,wa_spam_report_count,wa_about_text,wa_is_verified_biz,wa_body,wa_spoofed_sender,wa_label,phish_SFH,phish_popUpWidnow,phish_SSLfinal_State,phish_Request_URL,phish_URL_of_Anchor,phish_web_traffic,phish_URL_Length,phish_age_of_domain,phish_having_IP_Address,phish_Result
+phish-0977,+923159922310,1.0,1.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,1,-1,-1,0,0,1,0,1
+phish-0911,+923155026254,0.0,3.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,0,-1,-1,-1,1,1,0,0
+phish-0272,+923027831140,0.0,173.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,-1,1,1,1,-1,1,-1
+phish-0847,+923159425133,0.0,0.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,1,1,-1,1,1,0,-1
+,,,,,,,,,-1,-1,-1,1,1,1,-1,-1,0,1
+phish-0048,+923022898287,0.0,49.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,1,0,-1,1,-1,-1,0,1
+phish-0580,+923152733913,0.0,0.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,1,1,-1,-1,1,0,-1
+,,,,,,,,,-1,-1,-1,0,-1,1,0,-1,0,1
+phish-0865,+923154678731,1.0,3.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,-1,0,-1,-1,-1,1,1,0,-1
+,,,,,,,,,0,-1,1,0,1,0,0,1,0,1
+phish-0788,+923152696034,1.0,2.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,0,0,-1,-1,0,-1,1,0,1
+phish-0791,+923155667465,0.0,0.0,Available,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,-1,-1,-1,0,1,0,-1
+phish-0887,+923156879504,1.0,0.0,Hey there! I am using WhatsApp.,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,1,0,0,0,-1,0,-1
+phish-0061,+923024858381,1.0,65.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,0,-1,1,0,1,-1,1,1,1,1
+phish-0662,+923154840943,1.0,3.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,1,0,1,1,0,-1
+phish-0700,+923158214125,1.0,2.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,0,-1,0,0,0,1,-1,-1,0,0
+phish-0231,+923022578243,0.0,169.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,0,-1,-1,0,-1,-1,0,1
+,,,,,,,,,-1,-1,1,-1,0,1,-1,-1,0,-1
+phish-0301,+923028193703,1.0,119.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,0,0,-1,0,-1,-1,0,-1
+phish-0632,+923153171251,0.0,1.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,0,1,1,-1,-1,1,0,-1
+phish-0139,+923022030494,0.0,146.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,0,1,1,-1,1,1,0,1
+phish-0113,+923026996390,0.0,127.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,0,1,1,-1,1,1,0,-1
+phish-0583,+923157139394,1.0,1.0,Hey there! I am using WhatsApp.,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,-1,0,-1,1,0,-1,1,0,1
+phish-0069,+923027586950,0.0,73.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,0,-1,-1,-1,0,1,0,0
+phish-0267,+923023322578,1.0,112.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,-1,-1,0,1,1,-1,1,0,1
+phish-0219,+923027209083,1.0,102.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,-1,-1,-1,-1,1,1,0,1
+phish-0370,+923024248457,0.0,162.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,-1,-1,-1,0,0,1,0,1
+,,,,,,,,,1,1,-1,1,1,-1,1,1,0,-1
+phish-0460,+923025659409,0.0,166.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,0,1,1,0,-1,1,0,-1
+phish-0209,+923029203468,0.0,96.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,-1,-1,-1,1,0,-1,0,1
+,,,,,,,,,1,0,1,-1,1,0,0,1,1,-1
+phish-0166,+923025683795,0.0,104.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,-1,-1,0,0,1,0,-1,0,1
+phish-0400,+923025813209,1.0,56.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,1,1,1,-1,0,1,0,-1
+phish-0955,+923159828488,0.0,1.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,0,0,-1,1,-1,1,0,1
+phish-0545,+923152182452,0.0,2.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,1,-1,0,1,0,-1
+phish-0448,+923025668628,1.0,57.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,0,1,1,-1,-1,1,0,-1
+phish-0764,+923154548863,1.0,1.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,-1,1,1,-1,1,0
+phish-0218,+923027898865,1.0,175.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,1,-1,0,1,-1,-1,0,0
+phish-0486,+923023497783,0.0,187.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,1,1,0,0,-1,0,1,0,-1
+phish-0877,+923158258043,1.0,3.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,0,-1,-1,-1,0,0,-1,0,1
+phish-0217,+923029328874,0.0,177.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,-1,1,-1,0,1,0,-1
+phish-0266,+923024882462,0.0,158.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,1,1,1,-1,0,-1
+phish-0947,+923154294483,0.0,3.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,0,1,1,1,0,1,1,0,-1
+phish-0690,+923157003048,0.0,2.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,0,0,-1,-1,0,1,0,-1
+,,,,,,,,,-1,-1,-1,0,-1,-1,0,1,0,1
+,,,,,,,,,-1,-1,-1,0,-1,0,1,1,0,1
+,,,,,,,,,-1,0,0,-1,-1,-1,-1,1,0,0
+phish-0417,+923025457661,0.0,124.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,0,-1,1,1,0,-1,0,1
+,,,,,,,,,1,0,1,0,-1,0,1,1,0,-1
+phish-0318,+923027217408,0.0,158.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,0,1,1,-1,-1,1,0,-1
+,,,,,,,,,1,1,1,1,1,-1,1,1,0,-1
+phish-0659,+923159980460,1.0,0.0,Hey there! I am using WhatsApp.,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,1,-1,-1,-1,0,1,0,1
+phish-0034,+923025445474,1.0,60.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,1,1,0,0,1,0,-1
+,,,,,,,,,1,0,1,1,0,1,1,-1,1,-1
+phish-0797,+923154213236,0.0,1.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,1,1,1,1,1,-1,0,1
+phish-0929,+923156779877,1.0,0.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,0,0,0,0,1,1,0,1,0,1
+phish-0991,+923158150334,0.0,1.0,Available,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,1,1,0,0,1,0,-1
+phish-0242,+923026998915,1.0,86.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,-1,1,-1,0,1,1,-1
+phish-0010,+923023567723,1.0,105.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,-1,-1,-1,0,1,0,-1
+,,,,,,,,,1,-1,1,-1,1,0,0,1,0,-1
+phish-0822,+923153770412,0.0,1.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,0,-1,-1,-1,1,-1,-1,0,1
+phish-0982,+923158479623,0.0,0.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,0,-1,-1,0,0,1,0,-1,0,1
+phish-0334,+923028824929,0.0,104.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,0,0,-1,1,1,-1,0,1
+phish-0412,+923029204114,1.0,65.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,0,-1,-1,0,0,-1,0,1
+,,,,,,,,,-1,0,-1,1,1,1,1,-1,0,1
+phish-0550,+923154163497,0.0,3.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,0,-1,1,-1,-1,0,-1,-1,0,1
+phish-0307,+923027860921,1.0,118.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,1,-1,-1,0,-1,-1,0,1
+phish-0156,+923023759285,0.0,45.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,1,-1,1,-1,-1,1,0,-1
+phish-0784,+923153887734,1.0,0.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,-1,-1,-1,0,-1,1,0,1
+phish-0920,+923152191194,0.0,2.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,1,-1,0,1,1,-1
+phish-0257,+923024242485,0.0,93.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,-1,-1,-1,1,1,0,0
+phish-0930,+923152923218,1.0,3.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,0,-1,-1,1,-1,-1,0,1
+phish-0072,+923024188994,1.0,88.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,0,0,0,0,1,0,-1
+phish-0985,+923153374711,1.0,0.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,1,-1,-1,0,0,1,0,1
+phish-0434,+923022936507,0.0,59.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,-1,-1,-1,0,-1,1,0,1
+phish-0269,+923028906591,1.0,46.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,0,-1,-1,-1,1,0,-1
+,,,,,,,,,-1,-1,1,-1,-1,1,-1,-1,0,1
+,,,,,,,,,1,0,1,0,-1,1,1,-1,0,-1
+,,,,,,,,,-1,0,1,-1,-1,1,0,1,0,-1
+phish-0532,+923152787071,0.0,2.0,Available,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,0,-1,-1,0,1,0,-1
+phish-0941,+923155767180,1.0,2.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,0,-1,-1,1,-1,-1,0,1
+phish-0049,+923028723673,0.0,99.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,1,-1,-1,-1,0,1,0,-1
+phish-0190,+923029875682,1.0,121.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,-1,-1,-1,1,1,-1,1,0
+phish-0053,+923029649635,0.0,173.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,0,0,-1,-1,-1,1,0,0
+,,,,,,,,,1,1,1,1,1,1,1,-1,0,-1
+,,,,,,,,,-1,-1,-1,0,-1,1,0,1,0,1
+phish-0185,+923022560842,0.0,168.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,1,1,-1,0,1,0,-1
+,,,,,,,,,1,-1,0,1,1,-1,1,1,0,1
+,,,,,,,,,1,1,1,-1,1,0,-1,1,0,-1
+phish-0357,+923023046126,0.0,107.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,0,-1,1,0,-1,0,-1
+,,,,,,,,,1,1,1,1,1,-1,0,1,0,-1
+,,,,,,,,,-1,-1,0,0,-1,-1,-1,1,0,0
+phish-0433,+923025478087,0.0,177.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,0,-1,0,1,-1,0,-1
+phish-0518,+923152354820,1.0,1.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,0,0,-1,0,1,1,-1
+phish-0528,+923151611320,1.0,3.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,1,1,1,-1,0,1,1,-1
+phish-0775,+923153261421,0.0,0.0,Available,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,0,-1,-1,1,0,1,0,1
+,,,,,,,,,0,-1,1,0,0,-1,-1,1,0,1
+phish-0856,+923153289271,0.0,1.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,-1,-1,-1,0,-1,-1,0,1
+phish-0543,+923152220482,0.0,1.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,0,-1,-1,1,1,0,-1
+phish-0521,+923152979204,0.0,3.0,Available,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,1,1,1,0,-1,0,-1
+phish-0145,+923021405355,1.0,46.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,1,-1,0,0,-1,1,0,-1
+phish-0003,+923026106274,0.0,73.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,-1,-1,0,1,1,0,0
+phish-0953,+923152901658,1.0,2.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,1,-1,0,1,0,-1
+,,,,,,,,,-1,0,-1,-1,1,0,-1,-1,0,1
+phish-0348,+923024471161,0.0,193.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,-1,1,-1,-1,1,0,-1
+phish-0768,+923153741936,0.0,3.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,0,-1,-1,0,0,1,0,1
+phish-0122,+923025634461,1.0,74.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,-1,1,-1,1,1,0,-1
+phish-0197,+923025883973,0.0,148.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,0,-1,0,1,-1,0,-1
+phish-0091,+923024513272,0.0,181.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,1,0,-1,-1,-1,1,0,-1
+phish-0097,+923024553259,0.0,45.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,1,1,1,-1,0,1,1,-1
+phish-0500,+923022629047,0.0,153.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,1,1,0,1,1,0,-1
+,,,,,,,,,0,-1,-1,0,1,-1,0,1,0,1
+,,,,,,,,,-1,0,1,0,-1,1,-1,-1,0,1
+phish-0210,+923022277370,1.0,82.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,-1,1,1,-1,-1,1,-1
+,,,,,,,,,1,0,-1,-1,-1,1,0,-1,0,-1
+,,,,,,,,,1,1,1,1,1,-1,0,1,1,-1
+,,,,,,,,,-1,-1,1,0,-1,-1,0,1,0,1
+,,,,,,,,,1,0,1,1,1,0,0,-1,0,-1
+,,,,,,,,,1,0,-1,0,-1,1,0,-1,0,-1
+phish-0290,+923027111320,0.0,78.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,0,0,0,1,0,-1,1,0,1
+phish-0566,+923159971175,0.0,3.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,0,-1,-1,1,1,-1,1,1
+,,,,,,,,,1,1,-1,1,1,1,1,-1,0,-1
+phish-0817,+923157082954,1.0,1.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,-1,1,-1,1,-1,-1,0,1
+phish-0795,+923157708191,1.0,2.0,Hey there! I am using WhatsApp.,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,-1,-1,-1,1,0,-1
+phish-0875,+923159655995,1.0,0.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,0,1,1,0,0,1,0,1
+phish-0163,+923028771326,0.0,71.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,0,1,0,0,1,-1,-1,0,1
+phish-0894,+923154462945,1.0,1.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,0,-1,0,1,1,0,-1
+phish-0710,+923158734955,1.0,2.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,-1,0,-1,1,1,-1,1,1
+phish-0712,+923154525632,0.0,2.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,1,1,1,1,0,-1,0,1
+phish-0201,+923023389262,0.0,153.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,1,1,0,0,1,0,-1
+phish-0746,+923154765255,0.0,2.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,1,1,0,1,1,-1,0,-1
+phish-0025,+923021109747,1.0,190.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,0,-1,1,1,0,-1
+,,,,,,,,,1,-1,0,0,1,-1,-1,1,0,1
+phish-0364,+923027368085,0.0,54.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,1,0,-1,1,-1,1,0,1
+phish-0110,+923022028873,1.0,173.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,1,0,0,0,0,1,0,-1
+phish-0892,+923154456982,1.0,3.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,1,1,0,-1,1,0,-1
+phish-0240,+923024199681,0.0,181.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,-1,-1,0,1,-1,-1,1,0,1
+,,,,,,,,,-1,-1,1,-1,1,1,0,1,0,0
+phish-0080,+923027624577,1.0,86.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,0,1,1,0,-1,1,0,-1
+phish-0699,+923151234417,1.0,2.0,Hey there! I am using WhatsApp.,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,1,0,-1,-1,0,-1
+,,,,,,,,,-1,-1,-1,1,-1,1,1,-1,1,1
+phish-0479,+923023541745,0.0,74.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,-1,-1,-1,1,0,-1,0,-1
+phish-0821,+923155038540,1.0,2.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,1,1,-1,0,1,0,-1
+,,,,,,,,,-1,-1,-1,-1,-1,0,0,1,0,1
+phish-0825,+923156175107,0.0,2.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,0,1,1,-1,0,1,0,-1
+,,,,,,,,,-1,-1,0,-1,-1,0,-1,1,0,-1
+phish-0681,+923151406672,1.0,2.0,Hey there! I am using WhatsApp.,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,-1,-1,0,1,0,-1
+phish-0279,+923022694814,0.0,154.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,0,0,1,-1,-1,0,-1
+phish-0203,+923022983530,1.0,182.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,1,0,-1,0,1,1,0,-1
+phish-0275,+923022299984,0.0,135.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,0,-1,-1,0,-1,-1,0,1
+phish-0063,+923027898525,1.0,190.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,-1,-1,-1,0,0,-1,0,1
+phish-0167,+923027267560,0.0,102.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,1,1,0,0,1,1,0,-1
+,,,,,,,,,1,0,1,0,-1,1,1,-1,0,-1
+phish-0696,+923153639061,0.0,1.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,-1,1,-1,1,1,0,-1
+phish-0302,+923022700250,0.0,141.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,0,-1,0,1,1,0,-1
+phish-0969,+923158383077,1.0,3.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,1,1,-1,0,1,1,-1
+,,,,,,,,,1,1,0,0,-1,0,-1,1,0,-1
+phish-0631,+923158351043,0.0,1.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,1,1,0,-1,1,-1,-1,0,-1
+phish-0296,+923023678917,0.0,62.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,1,1,1,-1,-1,1,1,-1
+,,,,,,,,,1,1,-1,-1,1,1,1,-1,0,0
+,,,,,,,,,1,-1,0,-1,-1,1,-1,-1,0,1
+phish-0073,+923024855191,1.0,65.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,1,-1,0,-1,-1,1,0,1
+phish-0926,+923154481378,0.0,3.0,Available,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,0,-1,-1,1,-1,-1,0,1
+phish-0288,+923028398975,1.0,51.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,1,1,-1,1,1,0,-1
+phish-0066,+923026845316,1.0,58.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,0,-1,0,1,1,-1,-1,0,1
+,,,,,,,,,1,0,1,0,-1,0,0,1,0,-1
+phish-0478,+923026156986,1.0,193.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,-1,-1,-1,1,-1,1,0,1
+phish-0158,+923027272280,0.0,99.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,-1,-1,1,0,-1,0,-1
+phish-0728,+923152989966,1.0,0.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,0,1,1,1,-1,-1,0,1
+phish-0225,+923029906019,0.0,161.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,0,-1,1,0,0,1,0,-1
+,,,,,,,,,-1,0,-1,-1,-1,-1,0,1,0,1
+phish-0552,+923157108427,1.0,1.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,0,-1,-1,0,1,1,1,-1,0,1
+phish-0935,+923152831087,0.0,0.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,1,1,0,1,-1,0,-1
+,,,,,,,,,1,-1,0,1,1,-1,1,1,0,-1
+phish-0517,+923158863340,1.0,3.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,-1,-1,-1,0,-1,1,0,1
+,,,,,,,,,-1,-1,1,-1,-1,0,0,-1,0,1
+phish-0844,+923156324789,0.0,3.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,0,-1,-1,-1,-1,-1,1,0,1
+phish-0893,+923159283520,0.0,2.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,0,-1,-1,-1,0,-1,1,0,1
+phish-0870,+923152970335,1.0,1.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,0,0,-1,0,1,-1,-1,1,0,1
+phish-0906,+923153549953,1.0,3.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,0,-1,0,0,1,0,0,1,0,1
+phish-0884,+923152652563,1.0,0.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,1,1,1,1,1,0,-1
+phish-0682,+923154665035,1.0,1.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,0,-1,1,0,-1,1,-1
+phish-0660,+923154689144,1.0,3.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,-1,-1,1,1,-1,-1,0,-1
+phish-0613,+923158806379,1.0,3.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,0,-1,0,0,1,1,0,1,0,1
+,,,,,,,,,0,0,-1,0,0,1,0,-1,0,1
+phish-0137,+923026842911,0.0,126.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,0,-1,1,1,-1,0,-1
+phish-0522,+923154703380,1.0,3.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,0,-1,1,-1,-1,0,-1
+,,,,,,,,,1,0,1,0,-1,-1,-1,1,1,-1
+phish-0046,+923023543186,1.0,139.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,0,-1,-1,0,1,1,0,1
+phish-0622,+923158081838,0.0,2.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,0,-1,-1,0,0,-1,0,1
+,,,,,,,,,-1,-1,1,0,-1,-1,1,1,1,1
+phish-0749,+923155074450,0.0,3.0,Available,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,0,-1,-1,0,1,0,-1
+,,,,,,,,,-1,-1,0,-1,-1,-1,0,1,0,0
+,,,,,,,,,1,-1,0,-1,1,-1,0,1,0,1
+phish-0164,+923022793342,1.0,78.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,-1,-1,-1,0,1,1,-1
+phish-0031,+923023882984,1.0,190.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,1,-1,-1,1,0,-1
+phish-0227,+923021330621,0.0,90.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,-1,1,0,1,-1,0,1,0,1
+phish-0733,+923153655489,0.0,2.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,-1,-1,-1,0,0,1,0,1
+,,,,,,,,,0,0,-1,0,1,0,0,1,0,1
+phish-0247,+923027120782,1.0,48.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,-1,0,-1,1,-1,-1,0,1
+phish-0454,+923028261343,0.0,180.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,0,-1,1,-1,-1,0,-1
+,,,,,,,,,-1,-1,1,-1,-1,0,-1,1,0,1
+phish-0932,+923156322168,1.0,3.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,0,-1,-1,-1,-1,1,0,1
+phish-0099,+923021818231,0.0,151.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,1,0,1,1,0,-1
+,,,,,,,,,1,0,1,-1,-1,-1,1,1,1,0
+,,,,,,,,,1,0,1,0,-1,1,1,-1,0,-1
+,,,,,,,,,-1,-1,-1,-1,-1,0,0,-1,0,1
+,,,,,,,,,1,0,-1,-1,1,1,1,-1,0,0
+phish-0109,+923025889430,0.0,121.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,1,0,-1,0,0,-1,0,-1
+phish-0281,+923028944724,1.0,151.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,1,1,1,0,0,1,0,-1
+phish-0799,+923154904457,0.0,1.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,1,1,0,0,-1,0,-1
+,,,,,,,,,0,0,1,0,0,0,-1,1,0,1
+,,,,,,,,,1,0,1,1,1,-1,0,1,1,-1
+,,,,,,,,,1,0,1,1,1,0,1,1,0,-1
+phish-0948,+923155631793,0.0,0.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,-1,1,0,1,0,-1,-1,0,-1
+phish-0519,+923153110385,1.0,2.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,1,-1,-1,-1,-1,1,1,1
+phish-0045,+923029427901,1.0,88.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,-1,0,0,1,0,-1,0,-1
+,,,,,,,,,1,0,1,-1,1,-1,0,1,0,-1
+phish-0186,+923027331501,1.0,122.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,1,1,-1,1,1,0,-1
+,,,,,,,,,0,-1,-1,0,0,0,0,-1,0,1
+phish-0007,+923021581121,0.0,113.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,0,-1,1,-1,-1,0,-1
+phish-0424,+923027512449,0.0,106.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,0,-1,1,0,-1,0,-1
+phish-0029,+923021437632,0.0,122.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,-1,-1,-1,-1,1,1,0,1
+,,,,,,,,,1,0,1,-1,1,-1,0,1,1,-1
+phish-0026,+923021726337,1.0,130.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,1,1,1,-1,0,1,0,-1
+phish-0670,+923152307149,1.0,3.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,1,1,1,-1,-1,1,0,-1
+,,,,,,,,,-1,-1,1,1,-1,1,-1,1,0,1
+phish-0148,+923028641368,1.0,162.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,1,0,0,-1,1,1,-1
+phish-0067,+923024014658,0.0,197.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,0,1,1,-1,1,1,0,1
+phish-0150,+923024973943,1.0,95.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,-1,-1,-1,1,0,-1,0,1
+phish-0830,+923159092258,0.0,0.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,0,-1,-1,0,-1,-1,0,1
+,,,,,,,,,1,0,1,1,1,-1,0,1,0,-1
+phish-0603,+923153673222,1.0,3.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,1,1,0,1,1,0,-1
+phish-0986,+923152759128,0.0,1.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,-1,-1,1,1,0,-1,0,1
+phish-0135,+923023402764,1.0,152.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,-1,1,1,0,0,-1,0,-1
+,,,,,,,,,1,0,1,-1,-1,0,0,-1,0,-1
+phish-0575,+923151493827,1.0,0.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,-1,-1,-1,1,0,-1,0,1
+phish-0716,+923155626315,0.0,2.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,1,0,0,-1,1,1,0,-1
+,,,,,,,,,1,0,1,0,0,0,-1,1,0,-1
+,,,,,,,,,1,1,1,-1,-1,-1,0,1,0,-1
+phish-0101,+923023430577,1.0,82.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,-1,0,-1,1,-1,-1,0,1
+,,,,,,,,,1,-1,1,0,-1,1,1,-1,0,-1
+phish-0608,+923155936529,1.0,1.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,1,1,0,0,-1,1,1,0,-1
+,,,,,,,,,0,-1,0,0,1,1,0,-1,0,1
+phish-0927,+923155288320,0.0,1.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,0,-1,0,0,1,0,-1
+phish-0133,+923022743856,0.0,92.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,-1,-1,-1,0,1,1,1,1
+phish-0928,+923153337402,0.0,1.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,0,1,1,-1,0,1,0,-1
+phish-0541,+923156387460,0.0,2.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,0,-1,-1,-1,1,-1,-1,0,1
+phish-0237,+923021976791,0.0,179.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,0,-1,0,-1,-1,0,-1,-1,0,1
+,,,,,,,,,1,-1,0,-1,-1,0,-1,1,0,1
+phish-0513,+923151649734,0.0,3.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,-1,-1,-1,0,-1,-1,0,1
+phish-0923,+923152823918,0.0,1.0,Available,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,-1,0,-1,1,1,-1,1,1
+,,,,,,,,,-1,-1,1,-1,1,1,-1,-1,0,0
+,,,,,,,,,0,0,-1,0,1,1,1,-1,0,1
+,,,,,,,,,1,0,1,0,0,-1,0,1,0,-1
+phish-0972,+923152757164,0.0,1.0,Available,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,-1,-1,-1,0,0,-1,0,-1
+phish-0785,+923153173584,1.0,3.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,0,0,-1,0,1,1,0,-1,0,1
+,,,,,,,,,-1,-1,1,0,-1,0,0,1,0,1
+phish-0762,+923158142828,0.0,2.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,-1,1,0,0,-1,0,-1
+,,,,,,,,,-1,-1,0,-1,-1,0,-1,-1,0,1
+,,,,,,,,,1,1,1,-1,-1,-1,1,1,0,0
+phish-0271,+923024269575,0.0,156.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,1,0,0,1,0,-1
+phish-0592,+923156884280,1.0,0.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,0,-1,-1,0,1,0,0,1,0,1
+phish-0339,+923027784829,1.0,56.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,0,1,1,0,-1,-1,0,1
+phish-0107,+923021445275,0.0,116.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,-1,1,-1,0,-1,1,0,1
+phish-0171,+923024779325,0.0,164.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,-1,-1,-1,0,0,1,0,1
+phish-0475,+923022497803,1.0,67.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,0,0,-1,-1,0,1,0,-1
+,,,,,,,,,1,0,1,0,-1,0,1,1,0,-1
+phish-0614,+923159771361,0.0,3.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,0,0,0,1,1,1,-1
+,,,,,,,,,0,0,-1,0,1,1,0,-1,0,1
+phish-0358,+923027509315,1.0,182.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,0,-1,1,-1,0,1,0,-1
+phish-0633,+923153541564,1.0,3.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,-1,-1,-1,1,1,-1
+phish-0001,+923029097559,1.0,86.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,1,-1,1,0,-1,1,0,0
+phish-0630,+923151630668,0.0,0.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,-1,-1,-1,1,0,-1,0,1
+phish-0774,+923153474814,0.0,0.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,-1,-1,1,0,-1,-1,0,1
+,,,,,,,,,1,1,-1,1,1,-1,0,1,0,-1
+phish-0577,+923156113962,0.0,2.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,1,1,-1,-1,1,1,-1,0,0
+phish-0841,+923151817534,1.0,2.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,0,-1,-1,-1,-1,-1,1,0,1
+phish-0599,+923151491578,1.0,1.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,-1,-1,-1,0,0,1,0,1
+phish-0414,+923022686300,0.0,109.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,0,-1,-1,-1,0,1,0,1
+phish-0489,+923024535083,1.0,144.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,-1,1,0,-1,1,0,-1
+phish-0372,+923027925225,1.0,175.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,-1,1,-1,0,1,0,-1
+phish-0312,+923023850220,1.0,191.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,0,-1,1,0,-1,0,-1
+phish-0182,+923025582710,0.0,82.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,1,1,0,0,0,1,1,1,-1
+,,,,,,,,,-1,-1,0,0,-1,1,-1,-1,0,1
+phish-0441,+923025524384,1.0,150.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,-1,0,-1,-1,-1,1,0,1
+phish-0641,+923152157877,0.0,3.0,Available,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,-1,0,-1,1,-1,-1,0,1
+phish-0249,+923028004046,0.0,198.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,0,0,-1,0,0,1,0,-1,0,1
+phish-0462,+923021857684,1.0,73.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,1,0,-1,0,1,1,0,1
+phish-0976,+923154099793,0.0,3.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,0,-1,1,0,1,-1,0,1,0,1
+phish-0751,+923156090862,0.0,2.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,-1,1,1,1,0,-1,0,1
+phish-0268,+923023606302,1.0,130.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,1,0,-1,0,1,1,0,-1
+phish-0777,+923153854373,1.0,3.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,0,-1,-1,0,0,0,1,-1,1,1
+,,,,,,,,,-1,-1,0,-1,-1,0,0,1,0,1
+phish-0291,+923025684718,1.0,113.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,-1,1,0,0,1,0,-1
+,,,,,,,,,1,0,1,0,-1,-1,0,1,0,-1
+phish-0879,+923157090624,1.0,1.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,1,1,1,-1,-1,0,-1
+phish-0826,+923156614746,0.0,2.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,0,-1,-1,0,0,1,0,1
+phish-0709,+923158387531,1.0,3.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,0,0,-1,0,1,1,0,1,0,1
+phish-0981,+923154252978,1.0,3.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,0,0,0,0,0,-1,0,1,0,0
+phish-0538,+923154164823,1.0,3.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,0,1,-1,1,-1,-1,0,1
+phish-0353,+923025811184,0.0,132.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,-1,-1,1,1,0,-1,0,1
+phish-0581,+923155155099,1.0,1.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,0,0,0,0,1,1,-1,-1,0,1
+,,,,,,,,,1,0,1,1,1,0,1,1,0,-1
+phish-0759,+923156058962,0.0,3.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,1,1,1,0,1,0,-1
+phish-0018,+923028207936,1.0,62.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,1,0,0,0,0,1,0,-1
+phish-0488,+923029062911,0.0,164.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,-1,1,-1,0,1,0,-1
+phish-0901,+923156788435,0.0,3.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,-1,-1,-1,0,0,-1,0,1
+phish-0484,+923029671256,1.0,122.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,1,-1,-1,1,0,-1
+phish-0419,+923023098955,0.0,114.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,-1,-1,1,1,-1,-1,0,1
+phish-0278,+923022660142,1.0,47.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,1,1,1,1,-1,-1,0,1
+phish-0834,+923158449768,0.0,1.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,0,-1,1,0,1,1,-1,-1,0,1
+,,,,,,,,,1,0,0,1,-1,0,-1,1,0,1
+phish-0693,+923158207135,1.0,0.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,0,-1,0,1,1,0,-1
+phish-0264,+923024242627,0.0,177.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,0,-1,-1,0,-1,1,0,1
+phish-0273,+923026488995,1.0,136.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,0,0,0,1,0,-1
+phish-0695,+923153284192,1.0,3.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,0,-1,-1,0,1,0,-1
+,,,,,,,,,-1,-1,-1,-1,-1,0,-1,1,0,1
+phish-0196,+923027385457,0.0,47.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,-1,1,0,0,-1,0,-1
+,,,,,,,,,-1,0,1,0,0,-1,1,1,0,-1
+,,,,,,,,,1,1,1,0,-1,0,1,-1,0,-1
+phish-0819,+923156556310,1.0,0.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,0,-1,0,-1,-1,0,-1
+phish-0561,+923152705115,1.0,3.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,0,0,-1,0,0,0,-1,-1,0,1
+,,,,,,,,,1,0,1,0,-1,0,-1,1,0,-1
+phish-0634,+923152336638,0.0,0.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,0,0,1,0,1,-1,0,1,1,1
+phish-0578,+923159885578,0.0,2.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,-1,-1,-1,-1,0,1,0,1
+phish-0270,+923029927113,0.0,55.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,-1,-1,0,1,1,1,0
+phish-0255,+923028283372,1.0,87.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,-1,-1,-1,1,1,0,-1
+phish-0720,+923151549632,1.0,3.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,1,0,-1,-1,1,1,0,-1
+phish-0341,+923021472782,0.0,104.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,0,-1,-1,-1,-1,1,0,0
+,,,,,,,,,0,0,-1,0,1,1,0,-1,0,1
+,,,,,,,,,0,-1,0,0,1,1,1,-1,1,1
+phish-0743,+923156841370,1.0,2.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,0,-1,0,0,-1,0,-1
+,,,,,,,,,-1,0,-1,-1,-1,1,1,-1,1,1
+phish-0152,+923029060694,1.0,200.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,0,0,0,0,0,0,1,0,0
+phish-0493,+923023931529,0.0,100.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,-1,-1,-1,0,1,0,-1
+phish-0299,+923026771616,0.0,160.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,1,-1,1,0,-1,-1,0,0
+phish-0390,+923028977921,1.0,72.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,0,-1,1,-1,0,1,0,-1
+phish-0973,+923154515567,1.0,0.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,0,0,0,0,1,0,-1
+phish-0945,+923154625416,0.0,3.0,Available,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,1,-1,1,1,0,-1
+phish-0347,+923024761695,0.0,171.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,0,1,-1,0,0,1,0,-1
+phish-0021,+923029355195,0.0,91.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,1,1,1,0,1,1,-1
+,,,,,,,,,1,0,1,1,1,-1,0,1,0,-1
+phish-0739,+923157797145,0.0,2.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,0,0,-1,0,1,0,0,1,0,1
+,,,,,,,,,-1,-1,1,0,-1,0,1,1,0,1
+,,,,,,,,,0,0,-1,0,0,1,1,-1,0,1
+phish-0878,+923157892336,0.0,0.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,-1,1,1,1,-1,-1,0,1
+,,,,,,,,,-1,-1,-1,-1,-1,1,0,-1,0,1
+phish-0983,+923156469530,0.0,2.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,1,1,0,-1,-1,1,-1
+,,,,,,,,,-1,-1,-1,-1,-1,1,0,1,0,1
+phish-0259,+923027429051,1.0,144.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,0,-1,-1,1,0,-1,0,1
+,,,,,,,,,-1,-1,-1,-1,-1,0,0,1,0,1
+phish-0200,+923026069152,0.0,146.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,1,-1,-1,-1,1,1,0,0
+phish-0153,+923025325436,1.0,188.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,-1,-1,1,-1,1,1,0,0
+,,,,,,,,,1,-1,1,-1,-1,1,-1,-1,0,1
+phish-0857,+923153117646,0.0,3.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,0,0,-1,1,0,0
+phish-0350,+923024033075,1.0,76.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,-1,1,-1,-1,1,1,0,-1
+,,,,,,,,,-1,0,1,0,0,-1,0,1,0,-1
+,,,,,,,,,-1,0,1,-1,1,0,1,-1,1,1
+phish-0300,+923029385091,0.0,51.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,-1,0,-1,1,0,-1,0,1
+,,,,,,,,,-1,-1,0,-1,-1,1,0,-1,0,1
+phish-0572,+923155531875,1.0,2.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,0,0,1,1,-1,1,-1
+phish-0253,+923023164322,0.0,72.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,1,-1,1,0,-1,-1,0,0
+phish-0496,+923024434089,1.0,84.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,0,-1,-1,-1,-1,1,0,0
+phish-0563,+923156788949,1.0,2.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,1,1,1,-1,1,1,0,-1
+phish-0058,+923025201862,1.0,55.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,-1,-1,1,1,0,-1,0,1
+,,,,,,,,,0,0,0,0,1,0,0,-1,0,1
+phish-0129,+923025461879,1.0,188.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,1,-1,-1,1,0,-1,0,1
+phish-0087,+923027919355,0.0,138.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,0,-1,-1,0,1,1,1,-1,1,1
+,,,,,,,,,1,-1,1,-1,1,1,1,-1,0,-1
+,,,,,,,,,1,0,1,-1,1,0,1,-1,0,-1
+phish-0765,+923158176505,1.0,3.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,-1,-1,-1,1,0,-1
+phish-0309,+923025605705,1.0,62.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,1,0,0,-1,0,1,0,-1
+phish-0375,+923027374543,1.0,176.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,-1,-1,0,0,1,0,-1
+phish-0568,+923152800049,0.0,3.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,-1,1,1,1,0,-1
+phish-0363,+923027312529,0.0,115.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,0,1,1,-1,0,1,0,-1
+phish-0245,+923025602340,1.0,55.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,1,1,1,0,1,1,1,1
+phish-0514,+923151209080,1.0,2.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,-1,1,1,-1,0,0
+,,,,,,,,,0,0,-1,0,1,1,0,-1,0,1
+phish-0344,+923022771445,0.0,116.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,1,-1,1,-1,1,1,0,-1
+phish-0792,+923155460892,1.0,2.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,0,-1,0,0,1,1,0,-1,0,1
+phish-0814,+923152463963,1.0,2.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,1,-1,1,1,0,-1
+,,,,,,,,,-1,-1,-1,0,-1,-1,1,1,1,1
+phish-0445,+923028944528,1.0,198.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,0,-1,-1,0,1,0,-1
+,,,,,,,,,0,-1,-1,0,1,1,0,-1,0,1
+,,,,,,,,,-1,0,1,0,-1,0,-1,1,0,-1
+,,,,,,,,,1,0,1,1,1,0,0,-1,0,-1
+phish-0136,+923023046210,0.0,109.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,-1,1,0,1,1,0,-1
+phish-0874,+923152767680,0.0,2.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,1,1,1,-1,1,0,-1
+phish-0862,+923155647308,1.0,3.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,1,-1,1,1,1,-1,1,1
+phish-0540,+923157418498,0.0,2.0,Available,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,0,0,-1,-1,0,1,-1,1,1
+phish-0051,+923029333860,1.0,80.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,0,-1,-1,0,1,1,1,1
+phish-0452,+923023792291,0.0,71.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,1,-1,0,1,0,-1,0,1
+phish-0786,+923155144886,0.0,0.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,0,-1,-1,0,0,1,0,1
+phish-0177,+923023626675,1.0,79.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,-1,1,-1,1,-1,-1,0,1
+phish-0038,+923029602266,1.0,110.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,1,-1,-1,0,1,1,0,0
+phish-0351,+923028640266,1.0,45.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,-1,-1,1,1,-1,0,-1
+,,,,,,,,,1,-1,1,-1,1,0,-1,1,0,1
+phish-0465,+923023672065,1.0,64.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,1,0,-1,-1,0,1,0,-1
+phish-0401,+923027685592,1.0,196.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,1,0,-1,0,1,0,-1
+,,,,,,,,,1,-1,0,1,0,0,-1,-1,0,-1
+phish-0305,+923028271566,1.0,151.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,1,-1,1,1,0,-1
+,,,,,,,,,-1,-1,0,1,1,-1,1,1,0,1
+phish-0216,+923024027764,1.0,160.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,1,-1,1,-1,0,1,0,-1
+phish-0143,+923027253376,1.0,123.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,0,1,0,0,-1,1,0,1
+phish-0405,+923028146899,0.0,123.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,1,1,1,-1,0,1,0,-1
+phish-0589,+923152772050,0.0,0.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,1,-1,-1,-1,1,1,0,0
+phish-0228,+923021387466,1.0,132.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,-1,-1,1,-1,1,1,0,0
+phish-0967,+923151829221,1.0,0.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,0,0,-1,1,-1,1,0,1
+,,,,,,,,,1,0,1,1,1,0,0,-1,0,-1
+phish-0569,+923152622070,1.0,1.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,-1,-1,-1,0,-1,1,0,1
+phish-0314,+923024999878,1.0,116.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,-1,1,1,1,-1,0,-1
+,,,,,,,,,1,0,1,-1,1,0,1,1,0,-1
+phish-0343,+923023459062,0.0,161.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,1,1,-1,1,1,0,-1
+phish-0530,+923154927970,0.0,3.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,-1,-1,-1,1,0,1,0,-1
+,,,,,,,,,1,0,1,-1,1,0,0,1,0,-1
+phish-0721,+923155817115,0.0,3.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,1,0,0,1,1,0,-1
+phish-0172,+923026053030,1.0,48.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,-1,1,-1,1,1,0,-1
+,,,,,,,,,-1,-1,-1,-1,-1,0,0,-1,0,1
+phish-0718,+923157339206,1.0,3.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,0,-1,0,1,-1,0,-1
+,,,,,,,,,-1,0,1,-1,-1,1,-1,-1,0,1
+,,,,,,,,,1,1,1,-1,1,-1,0,1,0,-1
+phish-0760,+923158017615,0.0,2.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,-1,1,0,-1,0,-1
+,,,,,,,,,1,-1,-1,-1,1,-1,1,1,0,0
+phish-0204,+923023116287,1.0,178.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,0,1,0,-1,1,1,0,1
+phish-0706,+923151904154,0.0,1.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,0,-1,-1,0,1,1,0,-1,0,1
+phish-0651,+923156810644,0.0,0.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,-1,-1,-1,0,1,0,-1
+,,,,,,,,,1,-1,1,-1,-1,0,-1,1,0,-1
+phish-0246,+923025795746,1.0,56.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,0,0,0,-1,1,0,-1
+phish-0251,+923026146631,0.0,92.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,1,0,0,0,0,-1,0,-1
+phish-0664,+923152509036,0.0,1.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,1,0,0,-1,-1,1,-1
+,,,,,,,,,-1,-1,1,-1,-1,0,0,1,0,1
+phish-0823,+923155024722,1.0,3.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,1,-1,1,-1,1,1,0,-1
+phish-0456,+923028190918,0.0,168.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,0,-1,0,1,-1,-1,1,0,1
+,,,,,,,,,1,0,1,-1,-1,0,1,1,0,0
+phish-0458,+923028826335,0.0,166.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,1,1,-1,0,1,1,-1
+,,,,,,,,,1,0,1,-1,1,-1,1,1,0,-1
+phish-0998,+923151269822,0.0,3.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,1,1,0,1,-1,0,-1
+phish-0313,+923023128796,0.0,180.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,-1,1,-1,-1,1,1,-1
+phish-0919,+923152733093,1.0,2.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,1,1,1,0,-1,0,-1
+,,,,,,,,,0,0,-1,0,1,-1,0,1,0,1
+phish-0747,+923158451030,1.0,1.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,0,-1,-1,-1,1,1,1,0
+,,,,,,,,,-1,-1,-1,-1,-1,1,0,-1,0,1
+,,,,,,,,,-1,-1,1,-1,-1,-1,-1,1,0,1
+phish-0432,+923022011985,0.0,67.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,0,-1,-1,-1,1,1,-1
+phish-0509,+923152348435,1.0,2.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,1,1,-1,1,0,1,1,0,-1
+phish-0778,+923156075155,1.0,1.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,1,1,1,1,0,1,1,0,-1
+phish-0090,+923028046606,0.0,179.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,-1,-1,0,-1,-1,0,1
+phish-0820,+923155909351,0.0,1.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,1,-1,-1,1,0,1,0,1
+phish-0103,+923021222536,1.0,161.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,0,1,1,1,-1,-1,0,1
+,,,,,,,,,-1,0,0,-1,-1,-1,0,1,0,1
+phish-0244,+923024464314,0.0,66.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,-1,-1,0,0,1,1,-1,1,1
+phish-0332,+923021576178,0.0,172.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,1,0,0,1,0,-1
+phish-0377,+923023038497,0.0,131.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,0,0,-1,1,-1,-1,0,-1
+phish-0671,+923154083353,1.0,2.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,-1,0,-1,0,0,-1,-1,0,1
+phish-0714,+923152244257,0.0,2.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,-1,-1,1,1,0,0
+,,,,,,,,,1,0,1,-1,1,-1,0,1,0,-1
+phish-0675,+923158637279,0.0,3.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,-1,-1,-1,1,0,-1,0,1
+phish-0827,+923152312106,1.0,3.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,1,1,-1,1,-1,-1,0,1
+phish-0168,+923024256162,1.0,153.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,-1,0,-1,1,1,-1,0,1
+phish-0829,+923154014628,0.0,3.0,Available,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,0,0,1,0,1,1,0,-1,0,1
+phish-0472,+923028281330,0.0,180.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,0,-1,1,-1,-1,1,-1
+phish-0503,+923156435309,0.0,1.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,1,1,1,0,-1,0,-1
+phish-0597,+923151153687,0.0,0.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,-1,0,-1,1,-1,-1,0,1
+,,,,,,,,,1,0,1,1,0,0,1,1,0,-1
+phish-0573,+923152139200,1.0,3.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,0,0,-1,1,1,1,-1
+phish-0582,+923156832472,0.0,3.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,1,-1,1,1,1,-1,0,-1
+phish-0085,+923026574555,1.0,62.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,1,-1,0,1,0,-1,0,-1
+phish-0170,+923029616358,0.0,155.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,-1,-1,-1,-1,0,1,0,1
+phish-0092,+923025738839,0.0,154.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,0,-1,1,0,1,1,0,1
+phish-0283,+923025360532,0.0,123.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,-1,1,1,0,0,-1,0,-1
+,,,,,,,,,-1,-1,-1,-1,-1,0,1,-1,0,1
+phish-0057,+923028563698,0.0,162.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,-1,0,-1,-1,1,1,0,1
+,,,,,,,,,1,0,1,-1,-1,-1,1,1,0,0
+phish-0755,+923151635268,1.0,1.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,1,0,0,1,0,-1
+phish-0669,+923151813335,1.0,3.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,1,-1,1,0,0,1,0,-1
+phish-0711,+923152753870,1.0,0.0,Hey there! I am using WhatsApp.,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,1,-1,-1,-1,0,1,0,1
+phish-0914,+923159985435,0.0,0.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,0,-1,1,1,1,0,1,0,-1
+phish-0093,+923021763702,1.0,167.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,0,1,0,-1,0,-1
+phish-0151,+923024055797,0.0,80.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,-1,1,-1,1,1,0,-1
+phish-0050,+923023150010,1.0,127.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,-1,-1,-1,1,0,-1,0,1
+phish-0885,+923157646294,1.0,2.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,-1,1,1,1,0,-1,0,-1
+phish-0502,+923156195145,1.0,1.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,1,0,0,1,1,-1
+phish-0838,+923151377648,0.0,1.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,-1,-1,-1,0,0,-1,0,1
+phish-0468,+923022586769,0.0,82.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,-1,-1,-1,1,-1,1,0,1
+,,,,,,,,,-1,0,-1,0,-1,0,0,1,0,1
+phish-0256,+923023910020,1.0,97.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,1,-1,-1,0,-1,-1,0,1
+phish-0809,+923152309657,1.0,3.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,-1,-1,-1,1,0,-1,0,1
+phish-0039,+923021459389,0.0,121.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,-1,1,1,0,1,-1,0,-1
+phish-0319,+923026772718,0.0,65.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,-1,1,1,-1,1,1,0,-1
+phish-0207,+923026757763,1.0,75.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,0,0,0,0,1,0,0,-1,0,1
+phish-0127,+923027212205,0.0,139.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,0,-1,-1,-1,0,1,0,1
+phish-0230,+923029975029,1.0,55.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,0,1,1,1,-1,-1,0,-1
+phish-0961,+923152483038,0.0,0.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,1,1,1,1,-1,-1,0,1
+phish-0188,+923028771909,0.0,90.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,-1,0,0,0,-1,0,1,0,0
+,,,,,,,,,-1,0,-1,-1,1,1,0,-1,0,1
+phish-0997,+923156845221,0.0,0.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,1,1,1,-1,1,1,0,-1
+phish-0495,+923024478786,0.0,110.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,-1,-1,1,1,0,1,0,-1
+phish-0898,+923157392626,0.0,0.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,0,-1,-1,-1,-1,1,0,-1
+phish-0384,+923024333493,1.0,56.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,1,1,1,0,-1,1,0,-1
+phish-0446,+923027367640,1.0,154.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,0,-1,-1,1,0,-1
+,,,,,,,,,1,0,1,-1,1,-1,0,1,0,-1
+phish-0437,+923027220389,1.0,124.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,-1,-1,1,0,-1,-1,0,-1
+phish-0116,+923022057881,1.0,193.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,1,1,-1,0,1,0,-1
+phish-0487,+923028588662,0.0,62.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,1,1,1,0,1,-1,1,-1
+phish-0004,+923021939997,0.0,140.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,-1,-1,-1,0,-1,-1,0,1
+phish-0793,+923158808287,0.0,3.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,0,-1,0,0,0,0,0,1,0,0
+phish-0449,+923028622768,0.0,85.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,1,-1,-1,1,0,-1,0,-1
+phish-0735,+923159231376,1.0,1.0,Hey there! I am using WhatsApp.,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,-1,0,-1,1,-1,-1,0,1
+phish-0782,+923154174014,1.0,2.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,1,0,0,1,0,-1
+phish-0043,+923021578477,1.0,103.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,0,-1,1,0,0,1,0,-1
+phish-0596,+923153346211,0.0,0.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,0,-1,1,-1,-1,1,1,-1
+phish-0966,+923152538235,0.0,3.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,1,1,0,0,-1,0,-1
+phish-0123,+923028468941,1.0,89.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,1,1,-1,1,-1,0,1,1,0
+phish-0810,+923152356345,1.0,1.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,-1,-1,-1,0,0,-1,0,1
+,,,,,,,,,0,-1,-1,0,1,0,0,-1,0,1
+phish-0637,+923155351031,1.0,1.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,1,1,-1,1,0,-1,0,-1
+phish-0409,+923027481869,0.0,80.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,1,1,-1,1,-1,0,1,0,0
+phish-0276,+923026083881,1.0,185.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,0,0,-1,0,1,0,1,-1,1,1
+,,,,,,,,,1,0,-1,1,1,0,1,1,0,-1
+phish-0990,+923154486952,0.0,3.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,0,-1,-1,-1,1,0,-1
+phish-0727,+923156967342,1.0,3.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,1,-1,-1,1,-1,-1,0,1
+phish-0574,+923158079184,0.0,0.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,1,1,-1,1,-1,0,1,0,-1
+phish-0149,+923027030741,0.0,132.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,1,-1,-1,1,0,-1,0,-1
+phish-0623,+923158138855,1.0,0.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,1,1,1,1,0,-1
+phish-0320,+923026862380,0.0,198.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,0,-1,-1,0,1,1,0,-1,0,1
+phish-0480,+923026149537,1.0,171.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,1,-1,-1,0,0,1,0,1
+phish-0132,+923025596351,0.0,159.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,0,-1,0,-1,1,0,-1
+,,,,,,,,,1,0,1,-1,1,1,0,-1,0,-1
+,,,,,,,,,1,0,1,0,-1,-1,1,1,0,-1
+,,,,,,,,,-1,-1,1,-1,1,1,0,-1,0,0
+phish-0303,+923022408592,1.0,107.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,0,1,1,-1,1,1,0,-1
+phish-0184,+923021689760,1.0,65.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,1,1,1,0,-1,1,0,-1
+phish-0529,+923157517644,1.0,2.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,0,-1,-1,0,-1,1,0,-1
+phish-0234,+923026054841,0.0,101.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,-1,1,-1,1,1,0,-1
+phish-0161,+923028393080,0.0,169.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,-1,-1,-1,1,-1,-1,0,1
+phish-0801,+923157926608,0.0,3.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,0,-1,-1,1,1,0,-1
+phish-0571,+923158365862,1.0,3.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,1,1,0,0,1,0,-1
+,,,,,,,,,-1,0,-1,0,-1,1,-1,-1,0,1
+,,,,,,,,,-1,0,1,0,-1,-1,0,1,0,-1
+phish-0280,+923028553147,0.0,95.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,0,0,-1,0,1,0,-1
+phish-0410,+923029094533,1.0,113.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,0,-1,-1,0,0,-1,0,1
+phish-0469,+923022703998,1.0,53.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,-1,1,-1,1,1,0,-1
+phish-0989,+923156780383,1.0,2.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,1,1,0,-1,0,1,-1,0,-1
+phish-0687,+923152883689,0.0,2.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,1,-1,-1,0,0,1,0,1
+phish-0704,+923158659762,1.0,3.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,1,-1,0,1,-1,-1,0,-1
+,,,,,,,,,1,0,1,-1,1,0,-1,1,1,-1
+phish-0394,+923025153741,1.0,54.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,-1,1,-1,1,1,0,-1
+phish-0591,+923153476941,1.0,3.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,1,-1,1,1,0,1,0,-1
+,,,,,,,,,1,0,1,0,-1,-1,-1,1,1,-1
+phish-0115,+923021457719,0.0,196.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,1,-1,-1,0,-1,-1,0,1
+phish-0639,+923152240241,0.0,3.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,0,-1,-1,0,-1,1,0,1
+phish-0921,+923154898682,1.0,3.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,1,1,-1,1,-1,0,1,0,-1
+,,,,,,,,,1,-1,1,-1,1,-1,0,1,0,-1
+phish-0202,+923026741408,1.0,140.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,0,-1,1,1,-1,0,-1
+phish-0108,+923025374300,0.0,168.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,-1,-1,-1,1,-1,-1,0,1
+,,,,,,,,,1,0,1,-1,-1,1,1,-1,0,-1
+phish-0146,+923029976316,1.0,137.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,-1,-1,-1,1,0,-1,0,1
+phish-0077,+923026203918,0.0,189.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,1,0,0,-1,0,1,0,-1
+phish-0315,+923024098372,1.0,111.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,0,1,1,-1,0,1,0,1
+phish-0546,+923155429389,1.0,1.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,-1,1,0,1,1,0,-1
+phish-0155,+923023914827,0.0,65.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,0,0,-1,1,-1,-1,0,1
+phish-0345,+923022295297,0.0,187.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,1,-1,-1,1,0,-1,0,1
+,,,,,,,,,-1,-1,-1,0,-1,1,0,-1,0,1
+phish-0666,+923157292491,0.0,1.0,Available,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,1,-1,-1,1,0,-1
+phish-0041,+923025951550,0.0,180.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,0,-1,-1,1,-1,1,0,1
+phish-0848,+923154589146,0.0,1.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,0,-1,-1,0,0,1,0,1
+phish-0619,+923152767264,0.0,2.0,Available,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,-1,1,-1,-1,-1,1,1,0,0
+phish-0030,+923027680311,0.0,69.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,1,1,1,-1,1,1,0,-1
+phish-0261,+923023255100,1.0,95.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,1,1,1,0,1,0,-1
+,,,,,,,,,1,0,-1,1,1,1,1,-1,0,-1
+,,,,,,,,,1,0,1,0,-1,0,0,1,0,-1
+phish-0331,+923025679281,1.0,63.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,1,-1,-1,0,1,-1,0,0
+,,,,,,,,,0,0,-1,0,1,-1,-1,1,0,1
+phish-0584,+923157369832,0.0,2.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,1,0,0,0,1,0,-1
+phish-0406,+923025097337,0.0,168.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,0,-1,0,-1,-1,1,-1,-1,0,1
+,,,,,,,,,1,-1,1,0,-1,-1,1,1,0,-1
+phish-0117,+923024805573,1.0,167.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,0,1,0,0,-1,1,0,1
+phish-0658,+923155776410,1.0,0.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,-1,-1,-1,1,0,-1,0,1
+,,,,,,,,,1,1,1,0,0,1,-1,-1,0,-1
+phish-0601,+923151488858,1.0,1.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,-1,0,-1,0,0,1,0,1
+phish-0515,+923159395955,0.0,3.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,-1,-1,-1,1,0,-1,0,-1
+phish-0673,+923155674520,0.0,1.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,0,0,-1,-1,-1,1,0,0
+phish-0890,+923151987815,1.0,1.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,-1,0,0,1,0,-1
+,,,,,,,,,-1,-1,-1,0,-1,-1,0,1,0,1
+phish-0902,+923151982301,0.0,1.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,-1,1,0,1,0,-1,0,-1
+phish-0725,+923153773387,1.0,2.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,1,1,-1,-1,1,-1
+phish-0413,+923022225701,1.0,154.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,1,0,-1,1,1,-1,1,1
+phish-0241,+923026144280,1.0,112.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,-1,-1,0,0,0,1,-1,1,1
+phish-0277,+923029532524,0.0,126.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,-1,1,-1,0,0,-1,0,1
+phish-0757,+923156607952,0.0,3.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,0,-1,-1,0,1,1,0,-1,0,1
+phish-0506,+923153089392,0.0,1.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,1,0,0,0,1,0,-1
+,,,,,,,,,1,0,-1,-1,-1,1,1,1,0,-1
+phish-0598,+923159460310,1.0,1.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,0,-1,0,1,-1,0,-1
+phish-0081,+923022370205,0.0,89.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,-1,1,1,-1,1,1,0,-1
+phish-0033,+923028202610,0.0,100.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,1,1,1,0,-1,0,-1
+phish-0019,+923021819981,1.0,146.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,-1,1,-1,0,1,0,-1
+phish-0282,+923025484758,1.0,187.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,-1,-1,-1,-1,1,0,-1
+,,,,,,,,,1,1,1,-1,-1,1,1,-1,0,-1
+,,,,,,,,,1,-1,0,0,0,-1,1,1,0,-1
+phish-0504,+923153162146,1.0,0.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,0,0,1,0,1,0,-1,-1,0,1
+phish-0689,+923152668275,1.0,0.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,0,-1,1,0,-1,1,0,1
+,,,,,,,,,1,0,1,1,1,-1,-1,1,0,-1
+phish-0508,+923157999867,1.0,1.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,0,0,-1,-1,1,-1,-1,0,1
+phish-0324,+923025437387,0.0,154.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,1,1,1,-1,0,1,1,-1
+phish-0065,+923023744536,1.0,91.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,1,0,0,1,-1,-1,0,1
+phish-0781,+923154858739,0.0,1.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,1,-1,0,1,0,-1
+phish-0804,+923154851109,1.0,3.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,0,-1,0,0,-1,0,-1
+,,,,,,,,,0,-1,-1,0,1,0,0,1,0,1
+phish-0467,+923025968377,1.0,153.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,1,0,-1,-1,0,1,0,-1
+phish-0542,+923153055678,0.0,3.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,1,-1,-1,0,-1,1,1,1
+,,,,,,,,,-1,0,-1,-1,-1,1,0,-1,0,1
+,,,,,,,,,1,0,1,-1,1,0,1,1,1,-1
+phish-0975,+923156230791,0.0,3.0,Available,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,1,-1,-1,-1,1,1,0,0
+phish-0494,+923023624045,1.0,153.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,-1,1,-1,-1,1,1,-1
+,,,,,,,,,1,0,1,1,1,0,-1,-1,0,-1
+,,,,,,,,,1,1,1,0,0,1,1,-1,0,-1
+,,,,,,,,,1,1,1,-1,1,0,-1,1,1,-1
+phish-0239,+923024308693,0.0,103.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,0,0,1,0,1,0,1,-1,0,1
+phish-0335,+923025075298,1.0,193.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,1,1,-1,1,1,1,-1,1,0
+,,,,,,,,,-1,-1,0,-1,-1,0,0,1,0,1
+phish-1000,+923158915797,1.0,2.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,-1,1,0,-1,1,0,-1
+phish-0205,+923022860600,0.0,88.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,0,1,-1,0,0,1,0,1
+phish-0925,+923154679439,0.0,3.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,-1,-1,1,1,-1,-1,0,1
+phish-0020,+923029240230,0.0,130.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,1,1,1,1,-1,-1,0,-1
+phish-0047,+923029572702,1.0,141.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,-1,1,1,1,-1,1,-1
+phish-0868,+923158977513,0.0,0.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,1,1,1,1,1,1,-1
+phish-0803,+923156976905,0.0,0.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,0,-1,-1,1,-1,-1,0,1
+phish-0128,+923028175877,1.0,155.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,-1,-1,1,0,-1,1,-1
+,,,,,,,,,1,-1,1,-1,0,1,-1,-1,0,0
+phish-0192,+923023712131,1.0,162.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,0,-1,-1,1,-1,-1,0,-1
+phish-0956,+923158995333,0.0,0.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,1,-1,-1,-1,0,1,1,1
+phish-0798,+923152547786,0.0,1.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,1,1,-1,-1,-1,-1,1,0,-1
+,,,,,,,,,1,1,1,-1,1,-1,-1,1,0,-1
+phish-0744,+923154804008,0.0,0.0,Available,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,0,-1,-1,-1,-1,1,0,1
+phish-0936,+923155141323,1.0,3.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,-1,-1,-1,-1,0,1,0,1
+phish-0771,+923157631294,1.0,3.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,-1,1,-1,0,0,-1,0,-1
+,,,,,,,,,1,0,1,-1,1,-1,1,1,1,-1
+phish-0643,+923151141896,0.0,1.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,1,1,-1,1,1,0,-1
+,,,,,,,,,-1,-1,1,-1,-1,1,-1,-1,0,1
+phish-0438,+923022412857,1.0,153.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,0,-1,1,1,-1,1,-1
+phish-0705,+923151513486,0.0,2.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,0,-1,-1,1,0,-1,0,1
+,,,,,,,,,-1,-1,0,0,-1,0,-1,1,0,1
+phish-0444,+923028665201,1.0,106.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,1,-1,1,-1,1,1,0,-1
+,,,,,,,,,1,0,1,0,-1,1,0,-1,0,-1
+phish-0354,+923029292845,1.0,97.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,0,-1,-1,0,-1,1,0,1
+,,,,,,,,,1,0,1,0,-1,1,1,-1,0,-1
+phish-0329,+923021345051,0.0,151.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,0,1,1,0,0,1,0,1
+phish-0787,+923155543198,1.0,3.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,0,-1,-1,1,0,-1,0,1
+phish-0094,+923029600123,0.0,101.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,-1,-1,-1,0,-1,1,0,1
+phish-0605,+923153148015,0.0,0.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,0,0,-1,0,0,1,0,1
+phish-0853,+923151908798,0.0,3.0,Available,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,1,-1,1,1,0,-1
+,,,,,,,,,1,0,1,0,-1,-1,1,1,0,-1
+,,,,,,,,,1,0,1,0,-1,-1,-1,1,1,-1
+phish-0918,+923157923948,0.0,2.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,-1,0,-1,0,1,-1,0,1
+phish-0949,+923154151089,1.0,1.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,0,0,-1,0,1,1,-1,-1,0,1
+phish-0035,+923022410470,1.0,196.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,1,1,1,1,0,-1,1,-1
+phish-0214,+923026891315,1.0,162.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,0,1,1,0,0,1,0,-1
+phish-0698,+923151757018,0.0,2.0,Available,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,1,1,-1,1,-1,0,1,0,-1
+phish-0044,+923025151689,0.0,107.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,1,1,-1,1,-1,-1,0,1
+phish-0832,+923155241838,1.0,3.0,Hey there! I am using WhatsApp.,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,1,1,0,-1,-1,0,-1
+phish-0988,+923158876686,1.0,1.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,0,-1,1,1,0,1,0,-1
+phish-0866,+923159216662,1.0,1.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,0,-1,-1,0,0,1,0,1
+phish-0511,+923157187238,1.0,3.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,1,1,1,1,-1,1,1,0,-1
+phish-0402,+923029955639,1.0,98.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,1,1,-1,-1,1,0,-1
+phish-0223,+923028492309,1.0,195.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,1,-1,1,0,0,1,0,-1
+phish-0638,+923154066496,0.0,2.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,-1,-1,-1,1,0,-1
+,,,,,,,,,1,1,1,-1,-1,0,-1,1,0,-1
+,,,,,,,,,-1,0,1,0,-1,0,0,1,0,-1
+phish-0950,+923158055761,1.0,3.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,-1,0,-1,-1,0,-1,1,0,1
+,,,,,,,,,-1,-1,-1,-1,-1,-1,-1,1,0,1
+phish-0473,+923027534615,0.0,170.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,0,-1,-1,1,0,-1,0,1
+phish-0254,+923026599385,1.0,85.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,1,0,0,0,0,1,1,-1
+phish-0836,+923155324059,1.0,1.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,0,0,-1,0,1,1,-1
+phish-0426,+923023501437,0.0,195.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,0,0,1,1,-1,-1,0,1
+phish-0539,+923154288061,1.0,2.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,1,-1,1,1,-1,1,0,-1
+phish-0181,+923029435731,1.0,184.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,-1,-1,1,-1,1,1,0,0
+,,,,,,,,,0,-1,0,0,0,0,-1,1,0,0
+,,,,,,,,,0,-1,-1,0,1,-1,1,1,0,1
+phish-0492,+923029323099,0.0,136.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,1,-1,0,0,-1,1,0,1
+,,,,,,,,,1,1,-1,-1,1,-1,0,1,0,-1
+phish-0180,+923022819012,0.0,109.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,-1,1,-1,-1,1,-1,1,0,1
+,,,,,,,,,1,1,1,1,1,-1,1,1,1,-1
+phish-0498,+923028842837,0.0,127.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,-1,-1,1,1,-1,-1,0,-1
+phish-0606,+923157359270,1.0,0.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,-1,-1,-1,1,-1,-1,0,1
+phish-0379,+923021986680,0.0,80.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,1,-1,-1,1,0,-1
+phish-0321,+923021330362,1.0,172.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,-1,-1,-1,1,1,0,0
+,,,,,,,,,-1,-1,0,-1,-1,1,-1,-1,0,1
+phish-0397,+923027963361,0.0,86.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,0,0,-1,-1,-1,1,0,0
+phish-0284,+923027611101,1.0,147.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,0,-1,-1,1,-1,-1,0,1
+,,,,,,,,,1,-1,1,1,1,0,1,1,0,-1
+,,,,,,,,,1,1,0,0,-1,-1,-1,1,0,-1
+phish-0516,+923151421458,0.0,3.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,1,-1,1,1,0,1,0,0
+phish-0904,+923158523243,0.0,2.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,1,1,0,-1,0,1,0,-1
+phish-0111,+923028705231,1.0,82.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,0,-1,1,-1,1,1,0,-1
+phish-0680,+923153251976,0.0,2.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,1,1,-1,0,1,0,-1
+phish-0356,+923024331643,0.0,70.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,0,0,-1,0,-1,-1,0,-1
+phish-0250,+923023816029,1.0,127.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,0,-1,-1,1,-1,-1,0,1
+,,,,,,,,,-1,0,0,0,-1,-1,-1,1,0,0
+phish-0600,+923156602244,0.0,0.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,0,1,-1,1,-1,1,1,0,1
+phish-0162,+923029631791,1.0,194.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,-1,0,0,1,-1,0,1,0,1
+phish-0342,+923024507013,1.0,151.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,1,0,-1,0,0,1,0,1
+,,,,,,,,,0,-1,-1,0,1,1,1,-1,1,1
+phish-0628,+923154989113,0.0,1.0,Available,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,-1,1,1,0,0,-1,0,1
+phish-0385,+923022821412,1.0,151.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,0,-1,-1,1,0,-1,0,1
+phish-0730,+923158279644,0.0,0.0,Available,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,0,-1,-1,0,1,-1,0,1,0,1
+,,,,,,,,,-1,-1,0,-1,-1,0,-1,-1,0,1
+phish-0783,+923155391148,1.0,2.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,1,0,-1,1,-1,-1,0,-1
+phish-0954,+923152420010,0.0,1.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,-1,1,1,1,0,-1,0,1
+phish-0737,+923159238446,1.0,3.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,1,0,-1,1,0,-1
+phish-0688,+923156124639,1.0,1.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,1,0,0,-1,0,-1
+phish-0903,+923158574715,1.0,2.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,-1,1,0,1,1,0,-1
+,,,,,,,,,-1,0,0,0,-1,0,-1,1,0,1
+phish-0507,+923159891874,1.0,0.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,1,-1,1,1,-1,0,1,0,-1
+,,,,,,,,,1,0,1,1,1,0,0,1,0,-1
+phish-0070,+923028059148,1.0,105.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,0,-1,-1,0,1,-1,1,1
+phish-0531,+923157105579,0.0,1.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,1,0,1,0,-1,0,-1
+phish-0752,+923152451026,1.0,3.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,1,-1,-1,0,-1,-1,0,1
+phish-0383,+923024712620,1.0,72.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,0,-1,-1,1,-1,-1,0,1
+phish-0450,+923027686413,0.0,186.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,1,0,-1,0,-1,1,0,1
+phish-0763,+923159508024,1.0,3.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,-1,-1,-1,0,1,0,-1
+,,,,,,,,,0,0,-1,0,1,0,0,1,0,1
+phish-0677,+923152413574,0.0,1.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,1,-1,-1,1,-1,-1,0,1
+phish-0470,+923027677765,0.0,92.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,-1,1,1,0,0,1,0,1
+phish-0789,+923154905998,0.0,0.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,1,1,-1,1,1,0,-1
+phish-0964,+923158562362,0.0,2.0,Available,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,1,-1,1,1,1,0,-1,0,-1
+phish-0761,+923155089906,1.0,3.0,Hey there! I am using WhatsApp.,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,-1,1,1,0,0,-1,0,-1
+phish-0457,+923027989904,0.0,67.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,1,-1,-1,1,-1,-1,0,1
+phish-0558,+923152060375,0.0,3.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,-1,-1,0,1,0,-1
+,,,,,,,,,0,-1,0,0,1,0,0,1,0,1
+phish-0661,+923154736165,1.0,3.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,0,-1,-1,0,1,0,-1,-1,0,1
+phish-0154,+923024084341,1.0,57.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,0,-1,0,0,1,0,-1
+phish-0713,+923151741575,0.0,3.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,0,1,-1,-1,-1,1,0,-1
+phish-0421,+923024360439,0.0,116.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,1,-1,-1,0,-1,1,0,1
+phish-0173,+923022999279,0.0,148.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,0,-1,0,1,1,0,-1,0,1
+phish-0510,+923152101178,1.0,3.0,Hey there! I am using WhatsApp.,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,-1,1,0,1,-1,0,-1
+phish-0602,+923151241730,1.0,2.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,0,-1,0,0,1,0,-1
+phish-0957,+923155317835,1.0,2.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,1,0,-1,1,0,-1
+phish-0652,+923158541018,1.0,1.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,1,1,1,0,-1,0,-1
+phish-0871,+923153817506,1.0,1.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,0,0,-1,0,1,-1,1,1
+phish-0297,+923029083532,1.0,151.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,-1,-1,-1,0,1,0,-1
+phish-0114,+923022398005,0.0,73.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,-1,-1,1,1,0,-1,0,-1
+,,,,,,,,,-1,-1,0,-1,0,1,-1,-1,0,1
+phish-0859,+923152901563,0.0,3.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,-1,0,1,-1,0,0
+phish-0960,+923151056919,0.0,1.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,1,-1,-1,-1,1,1,0,0
+phish-0734,+923157797214,1.0,0.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,0,1,1,-1,0,1,0,-1
+phish-0013,+923022645692,0.0,117.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,-1,1,0,1,-1,1,0,-1
+phish-0106,+923026650170,0.0,128.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,1,-1,1,1,-1,-1,0,-1
+phish-0131,+923029244730,0.0,153.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,1,1,1,0,0,1,0,-1
+phish-0555,+923159787689,0.0,1.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,1,1,1,1,0,1,1,0,-1
+,,,,,,,,,1,0,-1,-1,1,0,1,1,0,-1
+phish-0828,+923157659619,0.0,2.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,1,1,0,1,1,0,-1
+phish-0374,+923022763619,1.0,136.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,0,-1,0,1,1,0,-1
+phish-0105,+923027322768,0.0,166.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,0,0,-1,0,0,-1,0,1
+,,,,,,,,,1,0,1,0,-1,0,0,1,0,-1
+,,,,,,,,,-1,-1,1,-1,1,1,1,-1,0,0
+phish-0032,+923028576363,0.0,182.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,-1,1,0,0,1,1,1,0,1
+,,,,,,,,,1,-1,1,-1,1,-1,0,1,0,-1
+phish-0854,+923159661150,0.0,3.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,0,1,1,1,-1,-1,0,-1
+,,,,,,,,,1,-1,-1,-1,1,1,-1,-1,0,-1
+phish-0306,+923026898795,0.0,127.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,1,1,1,1,1,-1,0,-1
+,,,,,,,,,-1,0,-1,-1,-1,0,0,-1,0,1
+phish-0005,+923027428014,1.0,158.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,0,-1,-1,0,0,-1,0,1,0,1
+phish-0380,+923025221420,0.0,132.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,-1,0,-1,1,-1,-1,0,-1
+phish-0858,+923154442080,0.0,0.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,-1,0,-1,-1,0,1,0,1
+phish-0355,+923021671669,0.0,182.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,-1,1,1,-1,-1,0,-1
+,,,,,,,,,-1,0,0,-1,-1,1,-1,-1,0,1
+phish-0567,+923155514050,0.0,3.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,-1,0,1,1,-1,0,1,1,1
+phish-0794,+923158269946,0.0,0.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,1,0,-1,0,0,-1,0,1
+phish-0420,+923026471210,0.0,160.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,1,1,1,0,-1,1,-1
+phish-0564,+923158567333,0.0,1.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,1,1,-1,-1,1,0,-1
+phish-0980,+923154174176,0.0,0.0,Available,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,-1,-1,1,-1,1,1,0,0
+phish-0376,+923026161159,1.0,118.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,0,-1,-1,-1,-1,1,0,0
+phish-0697,+923159590098,1.0,2.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,1,0,0,-1,0,1,0,-1
+phish-0028,+923024583866,1.0,144.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,0,-1,-1,0,1,1,-1,-1,0,1
+phish-0369,+923028478472,1.0,126.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,1,1,0,0,1,0,-1
+phish-0881,+923156007157,1.0,2.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,-1,-1,-1,1,-1,-1,0,1
+phish-0104,+923023589946,1.0,71.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,1,1,0,-1,1,1,-1
+phish-0910,+923156329891,1.0,0.0,Hey there! I am using WhatsApp.,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,-1,1,1,1,-1,0,-1
+phish-0738,+923158468566,0.0,3.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,1,1,1,-1,-1,0,-1
+,,,,,,,,,1,1,1,-1,-1,0,0,1,0,-1
+phish-0464,+923028957553,1.0,102.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,1,-1,1,1,1,-1,0,-1
+phish-0745,+923156932891,0.0,2.0,Available,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,-1,0,-1,0,1,-1,1,-1
+phish-0684,+923157425032,0.0,0.0,Available,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,1,1,0,1,0,-1
+phish-0996,+923151847209,0.0,0.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,1,1,0,-1,1,0,-1
+phish-0285,+923028187397,1.0,94.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,0,-1,1,1,0,-1,0,-1
+phish-0924,+923154421194,0.0,2.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,0,0,-1,-1,0,0,1,0,1
+phish-0371,+923024225197,0.0,59.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,0,-1,1,0,1,-1,1,1,0,1
+phish-0398,+923027732488,0.0,125.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,1,-1,-1,-1,0,1,0,1
+phish-0886,+923151002812,1.0,0.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,-1,1,-1,-1,0,1
+phish-0674,+923153587021,0.0,0.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,1,-1,0,1,0,-1
+phish-0609,+923152216740,0.0,2.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,-1,1,1,0,1,1,0,-1
+phish-0889,+923157912799,1.0,3.0,Hey there! I am using WhatsApp.,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,0,-1,-1,-1,0,0,-1,0,1
+phish-0807,+923156655190,0.0,0.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,-1,0,-1,1,0,0,1,0,1
+,,,,,,,,,-1,0,1,1,0,1,-1,-1,0,-1
+phish-0337,+923024211252,0.0,54.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,1,-1,-1,1,0,-1,0,1
+phish-0086,+923026586964,1.0,157.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,0,-1,-1,0,1,1,-1,-1,0,1
+phish-0839,+923155786690,0.0,0.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,0,-1,1,-1,0,1,0,-1
+phish-0729,+923153695655,0.0,3.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,1,0,1,1,0,-1
+,,,,,,,,,1,-1,0,1,1,0,1,1,0,1
+phish-0381,+923027445425,1.0,49.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,0,1,0,1,0,1,0,1
+phish-0882,+923151271040,0.0,1.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,1,1,0,-1,1,0,-1
+,,,,,,,,,1,1,1,0,0,-1,1,1,1,-1
+phish-0845,+923156738601,1.0,1.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,0,0,-1,0,0,1,-1,1,0,1
+phish-0222,+923023193235,0.0,69.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,0,0,-1,0,0,1,0,-1
+phish-0233,+923024431959,1.0,130.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,-1,1,0,1,1,-1,-1,0,1
+phish-0447,+923022303339,0.0,48.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,0,-1,-1,-1,0,1,0,0
+,,,,,,,,,1,0,1,-1,1,1,0,1,0,-1
+,,,,,,,,,0,-1,-1,0,1,-1,-1,1,0,1
+,,,,,,,,,-1,-1,-1,-1,-1,0,-1,1,0,1
+phish-0808,+923157974070,0.0,3.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,0,-1,-1,1,0,-1,0,1
+,,,,,,,,,-1,-1,-1,-1,-1,-1,0,1,0,1
+phish-0059,+923022171539,0.0,195.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,1,-1,1,-1,1,1,0,-1
+phish-0416,+923022474664,0.0,119.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,0,-1,1,0,-1,0,-1
+phish-0336,+923023731762,0.0,100.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,0,1,1,-1,1,1,0,1
+,,,,,,,,,0,0,0,0,1,0,0,-1,0,1
+phish-0835,+923152508334,0.0,2.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,0,1,1,-1,0,1,0,-1
+phish-0579,+923156726774,0.0,2.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,-1,0,0,1,1,-1
+,,,,,,,,,-1,-1,-1,0,-1,-1,1,1,1,1
+,,,,,,,,,1,0,0,0,-1,-1,-1,1,0,-1
+,,,,,,,,,-1,-1,1,0,1,1,1,-1,0,1
+phish-0855,+923158233940,0.0,2.0,Available,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,-1,1,1,0,-1,-1,1,0,-1
+,,,,,,,,,1,0,1,0,-1,0,0,-1,0,-1
+phish-0466,+923027898445,1.0,131.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,1,1,0,-1,1,0,-1
+phish-0694,+923159608148,1.0,2.0,Hey there! I am using WhatsApp.,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,0,1,1,0,-1,1,0,1
+phish-0074,+923025248464,0.0,157.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,1,0,1,-1,0,-1
+phish-0491,+923025425780,1.0,56.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,0,-1,-1,-1,0,1,0,-1
+phish-0359,+923021772886,1.0,155.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,0,0,1,1,0,-1
+,,,,,,,,,1,-1,1,1,1,1,1,-1,0,-1
+phish-0130,+923027202496,0.0,60.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,-1,0,-1,1,1,-1,0,-1
+phish-0120,+923023833209,1.0,194.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,1,-1,1,1,0,-1
+phish-0942,+923154336539,1.0,3.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,1,1,1,1,-1,0,-1
+,,,,,,,,,-1,-1,-1,-1,-1,0,0,-1,0,1
+phish-0411,+923029159167,0.0,181.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,0,-1,0,1,0,-1,-1,0,1
+,,,,,,,,,1,0,-1,-1,1,0,1,1,0,0
+,,,,,,,,,1,0,0,1,1,1,0,-1,0,-1
+phish-0897,+923151363965,1.0,2.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,-1,-1,0,1,1,-1
+,,,,,,,,,-1,-1,0,-1,-1,1,0,1,0,1
+phish-0741,+923158635311,1.0,3.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,0,-1,-1,-1,1,0,-1
+,,,,,,,,,-1,-1,-1,0,-1,0,0,1,0,1
+,,,,,,,,,-1,-1,-1,-1,-1,0,1,1,0,1
+,,,,,,,,,1,0,1,1,0,-1,1,1,0,-1
+phish-0748,+923154853894,0.0,1.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,-1,0,-1,0,0,1,0,1
+phish-0463,+923021229214,1.0,191.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,0,0,-1,0,0,0,0,-1,0,1
+phish-0805,+923151550333,0.0,0.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,0,-1,-1,0,0,1,1,-1,0,1
+phish-0636,+923151194449,1.0,3.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,1,0,-1,1,-1,1,0,-1
+,,,,,,,,,1,0,-1,0,0,1,-1,-1,0,-1
+phish-0974,+923151062787,1.0,0.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,-1,1,-1,-1,1,1,-1
+phish-0617,+923155693707,1.0,0.0,Hey there! I am using WhatsApp.,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,1,1,1,1,-1,0,-1
+phish-0393,+923022674969,0.0,131.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,1,-1,0,1,0,-1
+,,,,,,,,,1,0,1,-1,-1,-1,0,1,0,-1
+phish-0642,+923158189821,1.0,1.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,-1,1,-1,-1,1,1,-1,0,0
+,,,,,,,,,1,0,1,1,1,1,1,-1,0,-1
+phish-0112,+923029048340,0.0,119.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,0,-1,1,-1,-1,1,-1,1,0,1
+phish-0963,+923156502400,1.0,1.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,0,0,-1,1,-1,-1,0,1
+,,,,,,,,,-1,0,-1,-1,-1,0,-1,-1,0,1
+phish-0395,+923025816381,0.0,86.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,1,0,-1,-1,0,1,0,-1
+phish-0391,+923021343619,1.0,146.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,0,-1,-1,-1,1,1,0,1
+phish-0431,+923028430242,1.0,132.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,1,1,1,-1,1,1,0,-1
+phish-0213,+923027462602,1.0,174.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,0,-1,0,1,1,0,-1
+,,,,,,,,,1,0,1,0,-1,0,0,1,0,-1
+,,,,,,,,,-1,0,-1,0,-1,0,1,1,0,1
+phish-0212,+923028530586,0.0,180.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,1,0,-1,-1,1,1,0,-1
+,,,,,,,,,1,-1,1,1,1,-1,1,1,0,-1
+,,,,,,,,,-1,-1,1,-1,0,1,-1,-1,0,1
+phish-0174,+923024714727,0.0,130.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,0,-1,-1,0,0,1,0,1
+phish-0361,+923028170057,0.0,181.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,0,-1,-1,0,0,-1,0,1
+phish-0719,+923153382609,0.0,3.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,-1,1,1,1,-1,-1,0,-1
+,,,,,,,,,1,-1,0,1,1,-1,-1,1,1,-1
+phish-0557,+923156223098,1.0,3.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,0,0,0,0,0,-1,0,1,0,0
+,,,,,,,,,1,0,1,0,0,0,0,1,1,-1
+phish-0585,+923152976214,0.0,3.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,0,-1,1,0,1,0,-1,-1,0,1
+phish-0076,+923021030917,1.0,156.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,0,0,-1,1,-1,-1,0,1
+,,,,,,,,,1,0,1,1,0,-1,-1,1,1,-1
+phish-0078,+923028935223,1.0,170.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,1,1,1,0,1,1,0,-1
+phish-0388,+923029489220,1.0,185.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,-1,-1,-1,1,-1,-1,0,1
+phish-0430,+923027768858,1.0,88.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,1,-1,-1,0,-1,1,0,1
+phish-0769,+923152785956,0.0,1.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,0,0,-1,0,1,-1,0,1
+,,,,,,,,,-1,0,0,-1,-1,-1,0,1,0,0
+,,,,,,,,,-1,0,-1,-1,1,1,-1,-1,0,1
+phish-0915,+923156367619,0.0,2.0,Available,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,0,0,-1,1,0,-1,0,1
+phish-0851,+923155330310,0.0,3.0,Available,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,-1,0,0,1,0,-1
+phish-0360,+923026836221,0.0,117.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,0,0,0,0,-1,0,-1
+,,,,,,,,,-1,1,1,0,0,1,0,-1,0,-1
+phish-0365,+923028810430,1.0,181.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,1,0,-1,-1,0,-1
+phish-0418,+923024950716,1.0,157.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,-1,0,-1,-1,1,1,1,1
+phish-0758,+923154946312,1.0,1.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,1,0,1,0,-1,1,-1
+,,,,,,,,,-1,0,1,-1,-1,0,-1,-1,0,1
+phish-0586,+923153963214,1.0,0.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,0,0,1,1,-1,1,-1
+phish-0340,+923025606307,0.0,195.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,1,1,1,0,-1,1,0,-1
+phish-0308,+923029372460,0.0,49.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,-1,-1,-1,0,1,0,-1
+,,,,,,,,,1,0,1,0,-1,1,1,-1,0,-1
+phish-0869,+923159437176,1.0,3.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,-1,-1,1,-1,0,1,0,-1
+phish-0316,+923021257802,0.0,172.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,1,-1,-1,1,0,-1
+phish-0968,+923152234669,1.0,2.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,1,1,1,-1,-1,0,-1
+phish-0750,+923159953631,1.0,3.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,1,-1,-1,0,0,1,0,-1
+phish-0083,+923023503676,0.0,62.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,1,0,-1,-1,-1,1,1,-1
+phish-0593,+923159587474,0.0,3.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,0,1,0,-1,1,1,-1,0,-1
+phish-0349,+923028220231,1.0,102.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,-1,-1,-1,0,0,1,0,1
+phish-0183,+923026519712,0.0,157.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,0,0,0,0,0,0,0,1,0,0
+,,,,,,,,,-1,-1,1,-1,-1,0,1,1,0,0
+phish-0389,+923026884962,1.0,90.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,1,0,-1,1,0,-1
+phish-0002,+923021147310,1.0,111.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,1,-1,-1,-1,-1,1,0,1
+phish-0169,+923026007663,0.0,151.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,1,1,-1,0,1,0,-1
+phish-0824,+923155082567,1.0,3.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,0,0,0,0,0,1,0,-1,0,0
+phish-0292,+923025171368,0.0,98.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,0,-1,-1,0,0,-1,0,1
+,,,,,,,,,-1,0,-1,-1,-1,0,-1,-1,0,1
+,,,,,,,,,-1,-1,-1,0,-1,0,0,1,0,1
+,,,,,,,,,0,-1,-1,0,0,0,0,1,0,1
+phish-0141,+923024226789,1.0,114.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,0,-1,0,0,0,1,0,1
+phish-0679,+923151657581,0.0,0.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,1,1,-1,1,-1,1,1,0,-1
+phish-0453,+923024498679,1.0,82.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,1,-1,1,-1,1,1,1,-1
+phish-0770,+923152056375,1.0,1.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,-1,0,-1,1,0,-1,1,0,-1
+phish-0102,+923024258855,1.0,132.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,0,-1,1,0,-1,0,-1
+phish-0289,+923025688196,0.0,51.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,-1,1,1,0,-1,0,-1
+phish-0618,+923158836030,1.0,3.0,Hey there! I am using WhatsApp.,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,0,-1,1,0,-1,0,-1
+,,,,,,,,,1,1,1,-1,-1,1,1,-1,0,0
+phish-0686,+923152489032,0.0,2.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,1,-1,-1,1,-1,-1,0,1
+,,,,,,,,,-1,0,-1,-1,-1,0,-1,-1,0,1
+,,,,,,,,,1,1,-1,1,1,0,0,1,0,-1
+phish-0014,+923023768011,1.0,181.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,-1,-1,1,0,-1,1,0,1
+,,,,,,,,,1,-1,0,-1,-1,-1,-1,1,0,1
+phish-0616,+923159325856,1.0,0.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,0,0,-1,-1,0,-1,1,0,1
+,,,,,,,,,1,1,-1,-1,-1,1,1,-1,0,-1
+phish-0024,+923024131637,1.0,132.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,0,0,-1,1,-1,-1,0,1
+phish-0891,+923151161566,0.0,3.0,Available,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,1,-1,0,1,0,-1,0,1
+phish-0756,+923152566368,1.0,0.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,-1,1,1,1,-1,-1,0,-1
+phish-0595,+923155807072,0.0,3.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,0,0,1,0,1,0,-1,1,0,1
+phish-0648,+923153584271,0.0,3.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,1,1,-1,-1,-1,1,1,1,0
+phish-0678,+923151248454,1.0,3.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,0,0,-1,0,1,1,1,-1,0,1
+,,,,,,,,,-1,-1,0,-1,1,-1,0,1,0,1
+,,,,,,,,,-1,-1,-1,-1,1,1,0,-1,0,1
+phish-0649,+923151984594,0.0,2.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,1,-1,-1,0,-1,-1,0,1
+phish-0796,+923159797661,1.0,3.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,1,1,0,-1,0,-1
+,,,,,,,,,1,-1,1,0,1,0,-1,1,0,1
+phish-0535,+923153890847,0.0,1.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,-1,1,-1,-1,1,1,-1,0,0
+phish-0846,+923157599100,0.0,1.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,-1,1,1,-1,0,1,0,-1
+phish-0872,+923155532806,1.0,1.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,0,1,1,-1,-1,1,0,-1
+,,,,,,,,,-1,0,0,0,-1,1,-1,-1,0,1
+,,,,,,,,,1,1,1,-1,1,1,1,-1,0,-1
+phish-0917,+923154294697,1.0,1.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,0,0,-1,0,1,1,0,-1,0,1
+,,,,,,,,,-1,-1,0,-1,-1,1,0,-1,0,1
+phish-0724,+923158557603,0.0,3.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,0,-1,-1,0,0,-1,0,1
+,,,,,,,,,1,1,1,-1,1,-1,0,1,0,-1
+phish-0934,+923159477594,1.0,0.0,Hey there! I am using WhatsApp.,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,-1,-1,-1,-1,-1,1,0,1
+,,,,,,,,,-1,-1,-1,0,1,0,1,1,1,1
+phish-0311,+923026204683,1.0,194.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,-1,-1,-1,1,0,1,0,1
+phish-0497,+923026588623,0.0,50.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,-1,-1,1,1,-1,-1,0,-1
+,,,,,,,,,0,-1,1,0,1,1,-1,-1,0,1
+phish-0715,+923156979240,0.0,0.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,0,-1,0,-1,0,1,-1,0,-1
+phish-0780,+923153210090,0.0,1.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,-1,0,-1,1,0,-1
+phish-0843,+923155320214,0.0,0.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,1,1,1,0,-1,1,0,-1
+phish-0668,+923152100463,1.0,3.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,-1,-1,1,0,0,1,0,1
+,,,,,,,,,1,0,1,1,0,-1,0,1,0,-1
+phish-0206,+923021783157,0.0,114.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,0,-1,-1,-1,0,1,0,0
+phish-0263,+923023114886,0.0,67.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,1,-1,-1,1,1,1,0,0
+phish-0627,+923153568387,0.0,1.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,0,1,-1,0,0,1,0,-1
+phish-0905,+923151339839,1.0,2.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,-1,-1,-1,1,1,0,0
+phish-0352,+923027136944,0.0,197.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,1,-1,0,1,-1,1,0,0
+phish-0559,+923156644905,1.0,3.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,1,0,-1,0,1,1,0,-1
+,,,,,,,,,-1,-1,1,-1,-1,0,0,-1,0,1
+,,,,,,,,,1,0,1,0,-1,0,0,1,0,-1
+phish-0772,+923158743387,0.0,0.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,0,-1,-1,-1,1,0,1,0,1
+phish-0951,+923156628133,1.0,3.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,0,-1,-1,1,-1,-1,0,1
+phish-0864,+923158437463,1.0,0.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,1,1,-1,1,-1,-1,1,0,-1
+phish-0565,+923153156978,0.0,0.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,1,1,0,1,1,0,-1
+phish-0876,+923157885781,0.0,3.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,-1,-1,1,1,0,0
+phish-0036,+923023704583,0.0,82.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,1,0,1,1,0,-1,0,1
+phish-0831,+923156097129,1.0,1.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,-1,1,1,1,-1,0,-1
+phish-0459,+923024710090,0.0,199.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,1,0,1,-1,0,-1
+phish-0562,+923158910742,1.0,2.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,-1,0,1,1,1,-1,1,0,-1
+,,,,,,,,,1,-1,0,-1,-1,0,0,-1,0,1
+,,,,,,,,,-1,-1,1,0,1,1,1,-1,0,1
+phish-0873,+923151187886,0.0,3.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,0,-1,-1,0,1,1,-1,-1,0,1
+phish-0850,+923159515775,0.0,2.0,Available,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,0,-1,-1,1,-1,-1,0,1
+phish-0126,+923022908679,0.0,110.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,-1,1,0,1,-1,0,-1
+phish-0175,+923029530496,0.0,68.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,-1,0,1,0,1,0,1,0,-1
+,,,,,,,,,1,1,1,0,0,-1,0,1,0,-1
+phish-0179,+923029235185,1.0,58.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,-1,1,-1,1,1,0,-1
+,,,,,,,,,0,0,1,0,0,-1,1,1,1,1
+phish-0134,+923023677617,1.0,162.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,1,-1,-1,-1,1,1,1,1
+phish-0052,+923022454082,1.0,93.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,-1,1,1,1,-1,0,-1
+phish-0064,+923025160328,1.0,87.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,1,-1,-1,1,0,1,0,1
+phish-0079,+923028829468,1.0,60.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,0,-1,0,0,1,0,-1
+phish-0262,+923027116493,1.0,187.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,0,1,-1,1,-1,1,0,1
+phish-0588,+923157568889,0.0,0.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,1,1,0,0,1,1,0,-1
+,,,,,,,,,0,-1,0,0,1,1,0,-1,0,1
+,,,,,,,,,1,1,1,1,1,-1,-1,1,0,-1
+phish-0840,+923151113269,0.0,0.0,Available,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,1,-1,1,1,0,-1
+,,,,,,,,,1,-1,0,0,-1,1,-1,1,0,1
+phish-0837,+923158925212,0.0,1.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,1,1,-1,1,1,1,-1,0,-1
+phish-0098,+923027436077,0.0,61.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,0,1,0,0,0,0,1,0,-1
+phish-0248,+923029282124,1.0,139.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,1,-1,1,0,0,-1,0,0
+,,,,,,,,,1,-1,0,1,-1,-1,0,1,0,-1
+,,,,,,,,,1,1,1,-1,-1,0,0,1,1,-1
+phish-0427,+923024155386,0.0,139.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,-1,-1,1,-1,0,1,0,-1
+phish-0054,+923029523920,0.0,80.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,0,0,-1,0,1,1,0,-1,0,1
+phish-0346,+923025144516,0.0,122.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,-1,1,0,0,0,1,1,1,1
+phish-0536,+923156866557,1.0,2.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,1,1,0,-1,0,-1
+phish-0399,+923024361221,1.0,150.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,0,1,1,1,0,0,1,0,-1
+phish-0533,+923159599520,0.0,2.0,Available,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,-1,1,1,1,0,-1,1,0,-1
+,,,,,,,,,-1,-1,1,-1,0,0,-1,-1,0,1
+phish-0520,+923158678270,0.0,0.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,1,-1,0,1,0,1,0,1
+phish-0425,+923028613462,0.0,99.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,0,0,1,0,1,-1,0,1,1,1
+phish-0971,+923156300448,0.0,1.0,At work,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,0,-1,-1,0,-1,1,0,1
+phish-0193,+923026936623,0.0,55.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,-1,1,-1,0,1,0,-1
+,,,,,,,,,1,-1,1,0,-1,-1,0,1,0,-1
+,,,,,,,,,-1,-1,1,-1,-1,1,-1,-1,0,1
+phish-0208,+923023049146,1.0,93.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,1,1,-1,1,-1,-1,0,-1
+phish-0549,+923158118040,0.0,1.0,Available,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,-1,-1,-1,0,0,-1,0,1
+phish-0189,+923021302665,1.0,169.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,1,1,1,-1,1,0,-1
+phish-0908,+923153764873,1.0,2.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,1,-1,0,1,0,-1
+phish-0159,+923026608130,1.0,133.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,1,-1,0,1,0,1,0,1
+phish-0476,+923024727772,0.0,136.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,0,-1,-1,0,-1,-1,0,1
+phish-0610,+923158437427,1.0,2.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,1,1,-1,1,-1,-1,1,0,-1
+phish-0403,+923027894675,1.0,116.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,0,1,1,1,1,-1,1,-1
+phish-0655,+923152237675,0.0,3.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,1,-1,-1,1,-1,-1,0,1
+,,,,,,,,,1,-1,0,-1,-1,0,-1,-1,0,1
+phish-0773,+923155421580,0.0,3.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,1,-1,-1,1,1,-1
+,,,,,,,,,-1,0,1,-1,1,0,-1,1,0,0
+,,,,,,,,,-1,-1,-1,-1,1,1,1,-1,0,1
+,,,,,,,,,1,1,1,0,-1,0,-1,1,1,-1
+phish-0199,+923021941054,1.0,138.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,1,-1,-1,0,0,-1,0,1
+phish-0062,+923024927935,0.0,70.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,-1,-1,-1,-1,1,1,0,-1
+phish-0740,+923152467927,1.0,1.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,0,0,-1,1,-1,-1,0,1
+phish-0604,+923155845781,0.0,1.0,Available,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,-1,1,-1,1,0,-1
+,,,,,,,,,1,0,1,-1,1,0,1,-1,0,-1
+phish-0471,+923029280319,1.0,155.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,-1,1,1,1,0,-1,0,-1
+phish-0736,+923154679897,0.0,0.0,Busy,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,1,-1,-1,-1,-1,1,0,1
+phish-0754,+923153680348,1.0,1.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,-1,1,1,1,0,-1,0,-1
+phish-0742,+923155649153,1.0,1.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,-1,-1,-1,1,0,-1,0,1
+phish-0226,+923021577412,0.0,145.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,1,1,1,1,-1,-1,0,1
+phish-0243,+923029852126,0.0,183.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,1,1,1,1,0,0,1,0,-1
+phish-0008,+923029925325,0.0,155.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,0,-1,-1,0,0,1,0,-1,0,1
+phish-0766,+923158476177,0.0,0.0,Hey there! I am using WhatsApp.,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,0,-1,-1,1,-1,-1,1,0,1
+phish-0178,+923021275465,0.0,89.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,-1,1,-1,-1,1,0,-1
+,,,,,,,,,-1,0,1,0,0,1,0,1,0,-1
+phish-0012,+923021508444,1.0,62.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,0,0,-1,-1,1,0,-1,0,1
+phish-0922,+923159722280,1.0,0.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,-1,-1,1,1,-1,-1,0,1
+phish-0378,+923026218638,1.0,86.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,1,1,-1,1,1,1,-1
+phish-0811,+923151411512,1.0,0.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,1,-1,1,1,-1,1,1,0,-1
+,,,,,,,,,-1,0,-1,-1,-1,0,0,1,0,1
+phish-0776,+923157754406,1.0,3.0,Available,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,0,-1,0,1,1,0,-1
+,,,,,,,,,-1,0,1,-1,0,0,-1,1,0,1
+phish-0708,+923151849372,1.0,3.0,Busy,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,-1,1,1,1,-1,-1,0,1
+,,,,,,,,,1,0,1,-1,1,-1,0,1,1,-1
+phish-0895,+923152167789,0.0,0.0,Available,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,0,1,0,-1,-1,0,1,0,-1
+phish-0815,+923154455218,1.0,2.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,1,0,-1,0,1,-1,1,1
+phish-0368,+923025401482,1.0,78.0,Bank Helpdesk,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,-1,1,0,0,1,0,-1
+phish-0650,+923153090940,0.0,1.0,Hey there! I am using WhatsApp.,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,0,-1,0,0,1,-1,-1,1,0,1
+phish-0624,+923158673909,1.0,2.0,At work,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,0,0,-1,0,1,1,0,-1,0,1
+phish-0647,+923156269252,1.0,2.0,At work,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,-1,1,1,-1,1,1,0,-1
+,,,,,,,,,-1,-1,-1,-1,-1,0,1,-1,1,1
+phish-0016,+923026943366,0.0,157.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,-1,1,0,1,1,0,-1
+phish-0717,+923152026556,0.0,0.0,Available,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,0,1,-1,-1,-1,1,1,0,0
+phish-0913,+923159212575,1.0,3.0,Hey there! I am using WhatsApp.,1.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,0,1,-1,0,-1,1,1,0,-1
+phish-0328,+923025811949,0.0,114.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,1,0,0,1,1,0,-1
+phish-0387,+923026313948,0.0,101.0,Urgent Account Support,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,0,1,1,1,0,-1,0,-1
+phish-0286,+923026894157,1.0,106.0,Lucky Draw Verification,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,0,-1,-1,-1,1,0,-1
+,,,,,,,,,1,-1,0,0,1,-1,0,1,0,-1
+phish-0310,+923028041348,0.0,135.0,BISP Rewards Officer,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,-1,-1,0,0,-1,1,0,-1,0,1
+phish-0800,+923158763310,1.0,1.0,Available,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,1,1,1,-1,1,0,-1,-1,0,-1
+,,,,,,,,,-1,-1,1,-1,0,0,-1,1,0,1
+phish-0160,+923021222938,0.0,64.0,Lucky Draw Verification,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,-1,1,-1,1,-1,-1,1,0,-1
+phish-0860,+923152042953,0.0,2.0,At work,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,1,0,1,-1,-1,-1,1,1,1,0
+phish-0071,+923028780908,1.0,128.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,1,1,1,-1,0,-1
+phish-0612,+923155841709,0.0,3.0,Available,0.0,Are you coming to the university tomorrow?,trusted@domain.edu.pk,safe,-1,-1,0,0,-1,1,-1,-1,0,1
+,,,,,,,,,-1,-1,0,-1,-1,0,0,-1,0,1
+phish-0118,+923028690111,0.0,54.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,1,1,1,0,-1,0,1,0,-1
+phish-0907,+923157526725,0.0,3.0,Busy,0.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,1,-1,-1,1,-1,-1,0,1
+,,,,,,,,,1,0,1,-1,1,0,-1,1,1,-1
+phish-0429,+923023516880,1.0,178.0,BISP Rewards Officer,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,0,0,0,0,0,-1,-1,1,0,0
+phish-0260,+923024015167,0.0,150.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,-1,-1,0,-1,-1,0,1,1,1,1
+,,,,,,,,,1,0,1,0,-1,0,0,1,0,-1
+phish-0366,+923022091653,1.0,109.0,Bank Helpdesk,0.0,Your account is locked. Verify now at http://secure-login.com,attacker@threat-mail.xyz,phishing,1,0,1,1,1,0,0,1,0,-1
+phish-0482,+923022379801,0.0,63.0,Urgent Account Support,0.0,"You won Rs.50,000! Claim here http://reward.xyz",attacker@threat-mail.xyz,phishing,1,0,1,1,1,-1,1,1,0,-1
+,,,,,,,,,1,0,1,0,-1,0,0,1,0,-1
+,,,,,,,,,-1,0,-1,1,1,1,-1,-1,0,1
+,,,,,,,,,1,-1,0,1,1,-1,-1,1,1,1
+,,,,,,,,,1,0,1,0,-1,-1,1,1,0,-1
+phish-0802,+923157511831,1.0,3.0,Busy,1.0,"Hey, check the lab assignment details on the portal.",trusted@domain.edu.pk,safe,-1,-1,0,-1,-1,-1,-1,1,0,1
+,,,,,,,,,1,0,0,1,1,-1,-1,1,0,-1
