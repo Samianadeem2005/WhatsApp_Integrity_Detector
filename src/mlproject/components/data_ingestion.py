@@ -6,7 +6,12 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from dataclasses import dataclass
 
-from src.mlproject.utils import read_mongodb_and_merge_data
+from src.mlproject.utils import read_whatsapp_data
+from src.mlproject.components.data_transformation import DataTransformation
+from src.mlproject.components.data_transformation import DataTransformationConfig
+
+from src.mlproject.components.model_trainer import ModelTrainerConfig
+from src.mlproject.components.model_trainer import ModelTrainer
 
 @dataclass
 class DataIngestionConfig:
@@ -23,7 +28,7 @@ class DataIngestion:
         logging.info("Starting data ingestion process...")
         try:
             logging.info("Reading data from MongoDB and merging with API data...")
-            df = read_mongodb_and_merge_data()
+            df = read_whatsapp_data()
 
             logging.info("Integrated data recieved")
 
@@ -46,8 +51,15 @@ class DataIngestion:
         except Exception as ex:
             raise CustomException(ex, sys)
 
+if __name__ == "__main__":
+    obj = DataIngestion()
+    train_data, test_data = obj.initiate_data_ingestion()
 
+    data_transformation = DataTransformation()
+    X_train_proc, X_test_proc, y_train, y_test, _= data_transformation.initiate_data_transformation(train_data, test_data)
             
+    modeltrainer = ModelTrainer()
+    print(modeltrainer.initiate_model_trainer(X_train_proc, X_test_proc, y_train, y_test))        
         
 
 

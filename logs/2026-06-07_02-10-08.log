@@ -1,0 +1,20 @@
+[2026-06-07 02:10:09,967]  28  root - INFO - Starting data ingestion process...
+[2026-06-07 02:10:09,967]  30  root - INFO - Reading data from MongoDB and merging with API data...
+[2026-06-07 02:10:09,967]  18  root - INFO - \U0001f9e0 WhatsApp data ingestion pipeline started.
+[2026-06-07 02:10:10,422]  23  root - INFO - \U0001f4e5 Fetching records from 'Whatsapp_data'...
+[2026-06-07 02:10:11,814]  36  root - INFO - \U0001f4ca DataFrame shape: (1890, 7)
+[2026-06-07 02:10:11,814]  33  root - INFO - Integrated data recieved
+[2026-06-07 02:10:11,830]  44  root - INFO - Data ingestion completed successfully.
+[2026-06-07 02:10:11,832]  47  root - INFO - Loading training data from: artifacts\train.csv
+[2026-06-07 02:10:11,832]  50  root - INFO - Loading testing data from: artifacts\test.csv
+[2026-06-07 02:10:11,832]  53  root - INFO - Encoding target label column into binary (phishing=1, safe=0)
+[2026-06-07 02:10:11,832]  63  root - INFO - Obtaining preprocessing vectorizer object.
+[2026-06-07 02:10:11,832]  29  root - INFO - Initializing TF-IDF Vectorizer pipeline steps.
+[2026-06-07 02:10:11,832]  39  root - INFO - TF-IDF pipeline created successfully.
+[2026-06-07 02:10:11,832]  66  root - INFO - Applying fit_transform on training features and transform on testing features.
+[2026-06-07 02:10:11,861]  70  root - INFO - Saving preprocessing pipeline object to artifacts folder.
+[2026-06-07 02:10:11,861]  78  root - INFO - Data transformation pipeline stage executed successfully.
+[2026-06-07 02:10:11,861]  28  root - INFO - Splitting training and test input data directly from transformation stage
+[2026-06-07 02:10:11,861]  71  root - INFO - Evaluating models based on classification metrics
+[2026-06-07 02:10:29,494]  89  root - INFO - Best model found: Random Forest with score: 1.0
+[2026-06-07 02:10:29,497]  104  root - INFO - Final Model Metrics -> Precision: 1.0000, Recall: 1.0000, F1: 1.0000

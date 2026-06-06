@@ -1,0 +1,16 @@
+[2026-06-07 01:37:00,442]  25  root - INFO - Starting data ingestion process...
+[2026-06-07 01:37:00,442]  27  root - INFO - Reading data from MongoDB and merging with API data...
+[2026-06-07 01:37:00,442]  16  root - INFO - \U0001f9e0 WhatsApp data ingestion pipeline started.
+[2026-06-07 01:37:00,922]  21  root - INFO - \U0001f4e5 Fetching records from 'Whatsapp_data'...
+[2026-06-07 01:37:02,132]  34  root - INFO - \U0001f4ca DataFrame shape: (1890, 7)
+[2026-06-07 01:37:02,132]  30  root - INFO - Integrated data recieved
+[2026-06-07 01:37:02,148]  41  root - INFO - Data ingestion completed successfully.
+[2026-06-07 01:37:02,148]  47  root - INFO - Loading training data from: artifacts\train.csv
+[2026-06-07 01:37:02,155]  50  root - INFO - Loading testing data from: artifacts\test.csv
+[2026-06-07 01:37:02,157]  53  root - INFO - Encoding target label column into binary (phishing=1, safe=0)
+[2026-06-07 01:37:02,159]  63  root - INFO - Obtaining preprocessing vectorizer object.
+[2026-06-07 01:37:02,159]  29  root - INFO - Initializing TF-IDF Vectorizer pipeline steps.
+[2026-06-07 01:37:02,159]  39  root - INFO - TF-IDF pipeline created successfully.
+[2026-06-07 01:37:02,159]  66  root - INFO - Applying fit_transform on training features and transform on testing features.
+[2026-06-07 01:37:02,178]  70  root - INFO - Saving preprocessing pipeline object to artifacts folder.
+[2026-06-07 01:37:02,189]  78  root - INFO - Data transformation pipeline stage executed successfully.
