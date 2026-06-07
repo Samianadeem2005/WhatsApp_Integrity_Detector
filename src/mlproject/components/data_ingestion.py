@@ -32,12 +32,18 @@ class DataIngestion:
 
             logging.info("Integrated data recieved")
 
+            df = df.dropna(subset=['body', 'label']).reset_index(drop=True)
+            df = df.drop_duplicates(subset=['body']).reset_index(drop=True)
+            logging.info(f"After cleanup - Total rows: {len(df)}")
+
+            df['label'] = (df['label'].str.lower().str.strip() == 'phishing').astype(int)
+
             # create artifacts folder if not exists
             os.makedirs(os.path.dirname(self.ingestion_config.raw_data_path), exist_ok=True)
             df.to_csv(self.ingestion_config.raw_data_path, index=False, header=True)
 
             # split the data into train and test sets
-            train_set, test_set = train_test_split(df, test_size=0.2, random_state=42)
+            train_set, test_set = train_test_split(df, test_size=0.2, stratify=df['label'], random_state=42)
             train_set.to_csv(self.ingestion_config.train_data_path, index=False, header=True)
             test_set.to_csv(self.ingestion_config.test_data_path, index=False, header=True)
 

@@ -50,10 +50,6 @@ class DataTransformation:
             logging.info(f"Loading testing data from: {test_path}")
             test_df = pd.read_csv(test_path)
 
-            logging.info("Encoding target label column into binary (phishing=1, safe=0)")
-            train_df['label'] = (train_df['label'].str.lower().str.strip() == 'phishing').astype(int)
-            test_df['label']  = (test_df['label'].str.lower().str.strip() == 'phishing').astype(int)
-
             # Extract features and targets cleanly
             X_train = train_df['body'].fillna('')
             y_train = train_df['label']

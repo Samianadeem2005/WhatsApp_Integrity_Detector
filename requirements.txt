@@ -10,3 +10,4 @@ pymongo
 requests
 xgboost 
 lightgbm 
+streamlit

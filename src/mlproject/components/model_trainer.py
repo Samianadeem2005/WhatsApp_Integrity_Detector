@@ -46,10 +46,8 @@ class ModelTrainer:
                 "Decision Tree": {
                     'criterion': ['gini', 'entropy', 'log_loss'],
                 },
-                "Random Forest": {
-                    'n_estimators': [16, 32, 64, 128, 256],
-                    'criterion': ['gini', 'entropy']
-                },
+                "Random Forest": { },
+                
                 "Gradient Boosting": {
                     'learning_rate': [0.1, 0.05, 0.01],
                     'subsample': [0.7, 0.8, 0.9],
