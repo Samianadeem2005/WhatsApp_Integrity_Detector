@@ -2,15 +2,29 @@ import streamlit as st
 import base64
 import time
 
+@st.cache_data(show_spinner=False)
+def get_base64_image(path):
+    try:
+        with open(path, "rb") as file:
+            return base64.b64encode(file.read()).decode()
+    except FileNotFoundError:
+        return None
+    except Exception:
+        return None
+
+
+def get_video_src():
+    return "https://cdn.whoscall.com/Whoscall_demo_en.mp4"
+
 
 def run_ui():
     # ==========================================
     # 1. PAGE CONFIGURATION & SESSION STATE
     # ==========================================
     st.set_page_config(
-        page_title="WhatsTrue - Confidence with Every Connection", 
-        page_icon="💚", 
-        layout="wide", 
+        page_title="WhatsTrue - Confidence with Every Connection",
+        page_icon="💚",
+        layout="wide",
         initial_sidebar_state="collapsed"
     )
 
@@ -22,20 +36,6 @@ def run_ui():
 
     if 'search_state' not in st.session_state:
         st.session_state.search_state = 'idle'
-
-    def get_base64_video(path):
-        try:
-            with open(path, "rb") as file:
-                return base64.b64encode(file.read()).decode()
-        except:
-            return None
-
-    def get_base64_image(path):
-        try:
-            with open(path, "rb") as file:
-                return base64.b64encode(file.read()).decode()
-        except:
-            return None
 
     # Yahan logo image ko base64 mein convert kar rahay hain
     logo_b64 = get_base64_image("Assets/Logo.png")
@@ -59,13 +59,19 @@ def run_ui():
     }
 
     header[data-testid="stHeader"] {display: none;}
-    /* Added padding-top so content doesn't hide behind fixed navbar */
-    .block-container {padding-top: 100px !important; padding-bottom: 0 !important; max-width: 100% !important; padding-left: 0 !important; padding-right: 0 !important;}
+    /* Adjusted padding-top to fit screens better */
+    .block-container {padding-top: 70px !important; padding-bottom: 0 !important; max-width: 100% !important; padding-left: 0 !important; padding-right: 0 !important;}
 
     /* Modern Soft Background */
     .stApp { 
         background-color: #f8fafc !important; 
         font-family: 'Nunito', sans-serif !important; 
+        will-change: auto;
+    }
+
+    /* Smooth container transitions */
+    .stContainer, [data-testid="stContainer"] {
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
     }
 
     /* --- WHATSTRUE HEADER (For Scanner Page) --- */
@@ -90,7 +96,7 @@ def run_ui():
     }
     .whatstrue-header img {
         height: 35px;
-        mix-blend-mode: multiply; /* <-- Is se yahan bhi box khatam ho jayega */
+        mix-blend-mode: multiply; 
     }
 
     /* --- Navbar Styling (Now Sticky/Fixed) --- */
@@ -103,6 +109,12 @@ def run_ui():
         top: 0; left: 0; right: 0;
         z-index: 99999;
         box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        will-change: transform;
+    }
+    
+    /* Prevent layout shift by stabilizing container */
+    [data-testid="stAppViewContainer"] {
+        scroll-behavior: smooth !important;
     }
     /* --- Navbar Logo Alignment and Blend Mode --- */
     .navbar-logo { 
@@ -111,7 +123,7 @@ def run_ui():
     }
     .navbar-logo img { 
         height: 55px; 
-        mix-blend-mode: multiply; /* <-- Is se white background transparent ho jayega */
+        mix-blend-mode: multiply; 
     }
 
     .navbar-links { 
@@ -123,8 +135,8 @@ def run_ui():
 
     /* --- Hero Wrapper --- */
     .hero-wrapper {
-        position: relative; width: 95%; max-width: 1350px; height: 560px;
-        margin: 0px auto 20px auto; 
+        position: relative; width: 95%; max-width: 1350px; height: 76vh; /* Thori height barhai */
+        margin: 0px auto 35px auto; 
         border-radius: 30px; overflow: hidden;
         box-shadow: 0 20px 50px rgba(0,0,0,0.15);
     }
@@ -134,7 +146,7 @@ def run_ui():
         position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 3; 
         display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; 
     }
-    .exact-hero-title { color: #ffffff !important; font-family: 'Nunito', sans-serif; font-size: 72px; font-weight: 800; line-height: 1.1; margin-bottom: 35px; letter-spacing: -1px;}
+    .exact-hero-title { color: #ffffff !important; font-family: 'Nunito', sans-serif; font-size: 60px; font-weight: 800; line-height: 1.1; margin-bottom: 25px; letter-spacing: -1px;}
 
     .btn-green-exact {
         background-color: #0CD25F !important; color: white !important; font-family: 'Nunito', sans-serif !important;
@@ -149,11 +161,11 @@ def run_ui():
     ========================================= */
     .protect-section, .detect-section {
         max-width: 1200px;
-        margin: 100px auto;
+        margin: 80px auto; /* Thori spacing barhai */
         padding: 0 40px;
         display: flex;
         align-items: center;
-        gap: 60px;
+        gap: 40px;
         justify-content: space-between;
     }
     .protect-left, .detect-right {
@@ -168,8 +180,10 @@ def run_ui():
     .detect-left { justify-content: flex-start; }
 
     .protect-right img, .detect-left img {
+        max-height: 70vh; /* Protect/Detect ki height barhai */
         max-width: 100%;
-        height: auto;
+        width: auto;
+        object-fit: contain;
     }
     .detect-left img {
         border-radius: 20px;
@@ -186,10 +200,10 @@ def run_ui():
 
     .section-title {
         color: #1e293b;
-        font-size: 52px;
+        font-size: 42px;
         font-weight: 800;
         line-height: 1.1;
-        margin-bottom: 40px;
+        margin-bottom: 25px;
         font-family: 'Nunito', sans-serif;
         letter-spacing: -1px;
     }
@@ -197,20 +211,20 @@ def run_ui():
         display: flex;
         align-items: flex-start;
         gap: 16px;
-        margin-bottom: 24px;
+        margin-bottom: 15px;
     }
     .feature-bullet-icon {
-        width: 48px;
-        height: 48px;
+        width: 40px;
+        height: 40px;
         flex-shrink: 0;
     }
     .feature-bullet-text {
-        font-size: 18px;
+        font-size: 17px;
         font-weight: 500;
         color: #334155;
         font-family: 'Nunito', sans-serif;
-        line-height: 1.5;
-        margin-top: 10px;
+        line-height: 1.4;
+        margin-top: 8px;
     }
     .feature-bullet-text strong {
         color: #1e293b;
@@ -244,47 +258,47 @@ def run_ui():
     .testimonial-wrapper {
         background-color: #0CD25F;
         border-radius: 40px;
-        padding: 60px 40px 0px 40px;
+        padding: 45px 40px 0px 40px;
         text-align: center;
-        margin: 60px auto;
+        margin: 40px auto;
         max-width: 1200px;
         position: relative;
         overflow: hidden;
     }
-    .testi-header { color: white; font-weight: 800; font-size: 16px; margin-bottom: 10px; font-family: 'Nunito', sans-serif;}
-    .testi-title { color: #1e293b; font-size: 42px; font-weight: 900; margin-bottom: 50px; letter-spacing: -1px; font-family: 'Nunito', sans-serif;}
+    .testi-header { color: white; font-weight: 800; font-size: 15px; margin-bottom: 10px; font-family: 'Nunito', sans-serif;}
+    .testi-title { color: #1e293b; font-size: 34px; font-weight: 900; margin-bottom: 30px; letter-spacing: -1px; font-family: 'Nunito', sans-serif;}
     .testi-grid {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
+        gap: 15px;
         position: relative;
         z-index: 2;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
     }
     .testi-card {
         background: white;
         border-radius: 20px;
-        padding: 25px;
+        padding: 18px;
         text-align: left;
         box-shadow: 0 10px 30px rgba(0,0,0,0.05);
     }
-    .testi-user { display: flex; align-items: center; gap: 15px; margin-bottom: 15px; }
-    .testi-avatar { width: 50px; height: 50px; border-radius: 50%; object-fit: cover; }
-    .testi-name { font-weight: 800; color: #1e293b; font-size: 16px; font-family: 'Nunito', sans-serif;}
-    .testi-country { color: #94a3b8; font-size: 13px; font-weight: 600; font-family: 'Nunito', sans-serif;}
-    .testi-text { color: #475569; font-size: 14px; font-weight: 600; line-height: 1.5; font-family: 'Nunito', sans-serif;}
+    .testi-user { display: flex; align-items: center; gap: 15px; margin-bottom: 12px; }
+    .testi-avatar { width: 45px; height: 45px; border-radius: 50%; object-fit: cover; }
+    .testi-name { font-weight: 800; color: #1e293b; font-size: 15px; font-family: 'Nunito', sans-serif;}
+    .testi-country { color: #94a3b8; font-size: 12px; font-weight: 600; font-family: 'Nunito', sans-serif;}
+    .testi-text { color: #475569; font-size: 13px; font-weight: 600; line-height: 1.4; font-family: 'Nunito', sans-serif;}
 
-    .testi-stats-title { color: #1e293b; font-size: 28px; font-weight: 800; margin-bottom: 30px; position: relative; z-index: 2; font-family: 'Nunito', sans-serif;}
+    .testi-stats-title { color: #1e293b; font-size: 24px; font-weight: 800; margin-bottom: 20px; position: relative; z-index: 2; font-family: 'Nunito', sans-serif;}
     .testi-stats-grid {
         display: flex;
         justify-content: center;
-        gap: 80px;
+        gap: 60px;
         position: relative;
         z-index: 2;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
-    .testi-stat-val { font-size: 64px; font-weight: 900; color: white; line-height: 1; font-family: 'Nunito', sans-serif;}
-    .testi-stat-label { font-size: 12px; font-weight: 800; color: #1e293b; text-transform: uppercase; letter-spacing: 1px; margin-top: 10px; font-family: 'Nunito', sans-serif;}
+    .testi-stat-val { font-size: 52px; font-weight: 900; color: white; line-height: 1; font-family: 'Nunito', sans-serif;}
+    .testi-stat-label { font-size: 11px; font-weight: 800; color: #1e293b; text-transform: uppercase; letter-spacing: 1px; margin-top: 8px; font-family: 'Nunito', sans-serif;}
     .globe-img { width: 100%; max-width: 1000px; margin: 0 auto; display: block; position: relative; z-index: 1; margin-top: -50px; }
 
     /* =========================================
@@ -292,7 +306,7 @@ def run_ui():
     ========================================= */
     .trusted-container {
         max-width: 1200px;
-        margin: 80px auto 40px auto;
+        margin: 60px auto 40px auto;
         display: flex;
         align-items: center;
         overflow: hidden;
@@ -382,7 +396,7 @@ def run_ui():
     /* =========================================
     SCANNER PAGE CSS
     ========================================= */
-    
+
     .scanner-page-title {
         font-size: 48px; font-weight: 900; text-align: center; 
         margin-top: 30px; margin-bottom: 50px; font-family: 'Nunito', sans-serif; letter-spacing: -1.5px;
@@ -447,10 +461,14 @@ def run_ui():
         box-shadow: 0 10px 25px rgba(12, 210, 95, 0.25) !important;
         transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important; border: none !important;
         letter-spacing: 0.5px; text-transform: uppercase; cursor: pointer !important;
+        will-change: transform, box-shadow;
     }
     button[kind="primary"]:hover { 
         transform: translateY(-3px) !important; 
         box-shadow: 0 15px 30px rgba(12, 210, 95, 0.35) !important; 
+    }
+    button[kind="primary"]:active { 
+        transform: translateY(0px) !important; 
     }
     button[kind="primary"] * { color: white !important; }
 
@@ -473,7 +491,7 @@ def run_ui():
     /* =========================================
     PREMIUM SCANNING INTERFACE STYLING
     ========================================= */
-    
+
     .progress-box { 
         background-color: #ffffff !important; 
         border: 1px solid #e2e8f0 !important; 
@@ -611,7 +629,7 @@ def run_ui():
     /* =========================================
     ✨ ELEGANT & COMPACT ACTION BUTTONS
     ========================================= */
-    
+
     /* 1. DOWNLOAD BUTTON (Compact & Sleek) */
     div[data-testid="stDownloadButton"] button {
         background: linear-gradient(135deg, #0CD25F 0%, #059669 100%) !important; 
@@ -806,12 +824,13 @@ def run_ui():
     </div>
                 """, unsafe_allow_html=True)
 
-            video_path = "Assets/Whoscall_demo_en.mp4" 
-            video_b64 = get_base64_video(video_path)
+            video_src = get_video_src()
 
-            if video_b64:
-                st.markdown(f"""
+            st.markdown(f"""
         <div class="hero-wrapper">
+            <video autoplay loop muted playsinline class="hero-video-bg">
+                <source src="{video_src}" type="video/mp4">
+            </video>
             <div class="hero-overlay"></div>
             <div class="hero-content-overlay">
                  <div class="exact-hero-title">Confidence with<br>Every Connection</div>
@@ -820,23 +839,12 @@ def run_ui():
             </div>
             </div>
         </div>
-                """, unsafe_allow_html=True)
-            else:
-                st.markdown("""
-        <div class="hero-wrapper" style="background: linear-gradient(135deg, #1e293b, #334155);">
-            <div class="hero-overlay"></div>
-            <div class="hero-content-overlay">
-                <div class="exact-hero-title">Confidence with<br>Every Connection</div>
-                <div class="hero-buttons">
-                    <a href="?page=scanner" target="_self" class="btn-green-exact">Get Started</a>
-                </div>
-            </div>
-        </div>
-                """, unsafe_allow_html=True)
+            """, unsafe_allow_html=True)
 
         # ==========================================
         # 🔥 PROTECT, DETECT, TESTIMONIALS & TRUSTED SECTIONS
         # ==========================================
+        # 🔥 Fix 2: 'Try WhatsTrue AI !' Button routes to scanner
         st.markdown("""
     <div class="protect-section" id="protect">
     <div class="protect-left">
@@ -905,7 +913,7 @@ def run_ui():
     <div class="feature-bullet-text"><strong>Screenshot</strong> - See beyond the surface in seconds!</div>
     </div>
 
-    <a href="#" class="btn-detect">Try WhatsTrue AI !</a>
+    <a href="?page=scanner" target="_self" class="btn-detect">Try WhatsTrue AI !</a>
     </div>
     </div>
 
@@ -1072,302 +1080,311 @@ def run_ui():
             </div>
             """, unsafe_allow_html=True)
 
+        # Define country data outside to use in both idle and searching states
+        country_data = {
+            "Pakistan (+92)": {"region": "Pakistan", "length":[11], "code": "+92"},
+            "India (+91)": {"region": "India", "length":[10], "code": "+91"},
+            "United States (+1)": {"region": "United States / Canada", "length":[10], "code": "+1"},
+            "United Kingdom (+44)": {"region": "United Kingdom", "length":[10], "code": "+44"},
+            "U.A.E (+971)": {"region": "United Arab Emirates", "length":[9], "code": "+971"},
+            "Saudi Arabia (+966)": {"region": "Saudi Arabia", "length":[9], "code": "+966"},
+            "Australia (+61)": {"region": "Australia", "length":[9], "code": "+61"},
+            "Germany (+49)": {"region": "Germany", "length":[10], "code": "+49"},
+            "France (+33)": {"region": "France", "length":[9], "code": "+33"},
+            "Italy (+39)": {"region": "Italy", "length":[10], "code": "+39"},
+            "Spain (+34)": {"region": "Spain", "length":[9], "code": "+34"},
+            "Bahrain (+973)": {"region": "Bahrain", "length":[9], "code": "+973"},
+        }
+
+        st.markdown('<div style="max-width: 1200px; margin: 0 auto; padding: 0 40px; margin-top:50px;">', unsafe_allow_html=True)
+        st.markdown('<div class="scanner-page-title">Is This WhatsApp Message Suspicious?</div>', unsafe_allow_html=True)
+
+        # Create a container for form/animation that won't cause layout shifts
+        content_container = st.container()
+
         if st.session_state.search_state == 'idle':
-            st.markdown('<div style="max-width: 1200px; margin: 0 auto; padding: 0 40px; margin-top:50px;">', unsafe_allow_html=True)
-            st.markdown('<div class="scanner-page-title">Is This WhatsApp Message Suspicious?</div>', unsafe_allow_html=True)
+            with content_container:
+                col_left, col_right = st.columns([1, 1.1], gap="large")
 
-            col_left, col_right = st.columns([1, 1.1], gap="large")
+                with col_left:
+                    st.markdown('<div class="custom-label">Enter WhatsApp Number</div>', unsafe_allow_html=True)
+                    st.markdown('<div class="custom-sublabel">Select country code and enter number</div>', unsafe_allow_html=True) 
 
-            with col_left:
-                st.markdown('<div class="custom-label">Enter WhatsApp Number</div>', unsafe_allow_html=True)
-                st.markdown('<div class="custom-sublabel">Select country code and enter number</div>', unsafe_allow_html=True) 
-                
-                col_code, col_num = st.columns([1.6, 2.5]) 
-                
-                country_data = {
-                    "Pakistan (+92)": {"region": "Pakistan", "length":[11], "code": "+92"},
-                    "India (+91)": {"region": "India", "length":[11], "code": "+91"},
-                    "United States (+1)": {"region": "United States / Canada", "length":[10], "code": "+1"},
-                    "United Kingdom (+44)": {"region": "United Kingdom", "length":[10], "code": "+44"},
-                    "U.A.E (+971)": {"region": "United Arab Emirates", "length":[9], "code": "+971"},
-                    "Saudi Arabia (+966)": {"region": "Saudi Arabia", "length":[9], "code": "+966"},
-                    "Australia (+61)": {"region": "Australia", "length":[9], "code": "+61"},
-                    "Germany (+49)": {"region": "Germany", "length":[10], "code": "+49"},
-                    "France (+33)": {"region": "France", "length":[9], "code": "+33"},
-                    "Italy (+39)": {"region": "Italy", "length":[10], "code": "+39"},
-                    "Spain (+34)": {"region": "Spain", "length":[9], "code": "+34"},
-                    "Bahrain (+973)": {"region": "Bahrain", "length":[8], "code": "+973"},
-                }
-                
-                with col_code:
-                    selected_country_string = st.selectbox("Code", list(country_data.keys()), label_visibility="collapsed")
-                    
-                with col_num:
-                    phone_number = st.text_input("Source", placeholder="E.g. 3146081201", label_visibility="collapsed")
-                
-                detected_region = country_data[selected_country_string]["region"]
-                st.markdown(f'<div class="detected-region">📍 Detected Region: <span>{detected_region}</span></div>', unsafe_allow_html=True)
-                
-            with col_right:
-                st.markdown('<div class="custom-label">Enter WhatsApp Message</div>', unsafe_allow_html=True)
-                st.markdown('<div class="custom-sublabel">(Paste the exact message you received here)</div>', unsafe_allow_html=True)
-                spam_text = st.text_area("Payload", placeholder="Paste the exact message you received...", height=155, label_visibility="collapsed")
+                    col_code, col_num = st.columns([1.6, 2.5]) 
 
-            st.markdown("<br>", unsafe_allow_html=True) 
-            error_placeholder = st.empty() 
-            
-            btn_col1, btn_col2, btn_col3 = st.columns([1, 1.2, 1]) 
-            
-            with btn_col2:
-                if st.button("🚀 INITIATE SCAN", type="primary", use_container_width=True):
-                    cleaned_number = ''.join(filter(str.isdigit, phone_number))
-                    expected_lengths = country_data[selected_country_string]["length"]
-                    
-                    if not phone_number:
-                        error_placeholder.markdown('''
-                            <div class="fancy-error">
-                                <span style="color: #be123c; font-size: 20px; font-weight: 900;">⚠️ Field is Empty!</span><br>
-                                <span style="color: #4c1d95; font-size: 16px; font-weight: 700;">Please enter a phone number to scan.</span>
-                            </div>
-                        ''', unsafe_allow_html=True)
-                    elif len(cleaned_number) not in expected_lengths:
-                        len_str = " or ".join(map(str, expected_lengths))
-                        error_placeholder.markdown(f'''
-                            <div class="fancy-error">
-                                <span style="color: #be123c; font-size: 20px; font-weight: 900;">🚨 Oops! Invalid Number Length.</span><br>
-                                <span style="color: #881337; font-size: 16px; font-weight: 700;">For <b>{detected_region}</b>, standard numbers must be exactly <b>{len_str} digits</b> long.<br>
-                                <span style="color: #f43f5e; font-weight: 800; font-size: 18px; display:block; margin-top:8px;">You entered: {len(cleaned_number)} digits</span></span>
-                            </div>
-                        ''', unsafe_allow_html=True)
-                    else:
-                        # Prediction yahan hogi
-                        from src.mlproject.pipelines.prediction_pipeline import CustomData, PredictPipeline
-                        
-                        data = CustomData(
-                        phone_number=phone_number.strip(),
-                        message_text=spam_text.strip()
-                        )
-                        df = data.get_data_as_data_frame()
-                        
-                        pipeline = PredictPipeline()
-                                                
-                        # Result store karo session mein
-                        result, confidence = pipeline.predict(df)
-                        st.session_state.is_spam = bool(result[0] == 1)
-                        st.session_state.confidence = confidence
+                    with col_code:
+                        selected_country_string = st.selectbox("Code", list(country_data.keys()), label_visibility="collapsed")
 
-                        if confidence <= 20:
-                            st.session_state.risk_level = 1
-                        elif confidence <= 40:
-                            st.session_state.risk_level = 2
-                        elif confidence <= 60:
-                            st.session_state.risk_level = 3
-                        elif confidence <= 80:
-                            st.session_state.risk_level = 4
+                    with col_num:
+                        phone_number = st.text_input("Source", placeholder="E.g. 3146081201", label_visibility="collapsed")
+
+                    detected_region = country_data[selected_country_string]["region"]
+                    st.markdown(f'<div class="detected-region">📍 Detected Region: <span>{detected_region}</span></div>', unsafe_allow_html=True)
+
+                with col_right:
+                    st.markdown('<div class="custom-label">Enter WhatsApp Message</div>', unsafe_allow_html=True)
+                    st.markdown('<div class="custom-sublabel">(Paste the exact message you received here)</div>', unsafe_allow_html=True)
+                    spam_text = st.text_area("Payload", placeholder="Paste the exact message you received...", height=155, label_visibility="collapsed")
+
+                st.markdown("<br>", unsafe_allow_html=True) 
+                error_placeholder = st.empty() 
+
+                btn_col1, btn_col2, btn_col3 = st.columns([1, 1.2, 1]) 
+
+                with btn_col2:
+                    if st.button("🚀 INITIATE SCAN", type="primary", use_container_width=True):
+                        cleaned_number = ''.join(filter(str.isdigit, phone_number))
+                        expected_lengths = country_data[selected_country_string]["length"]
+
+                        if not phone_number:
+                            error_placeholder.markdown('''
+                                <div class="fancy-error">
+                                    <span style="color: #be123c; font-size: 20px; font-weight: 900;">⚠️ Field is Empty!</span><br>
+                                    <span style="color: #4c1d95; font-size: 16px; font-weight: 700;">Please enter a phone number to scan.</span>
+                                </div>
+                            ''', unsafe_allow_html=True)
+                        elif len(cleaned_number) not in expected_lengths:
+                            len_str = " or ".join(map(str, expected_lengths))
+                            error_placeholder.markdown(f'''
+                                <div class="fancy-error">
+                                    <span style="color: #be123c; font-size: 20px; font-weight: 900;">🚨 Oops! Invalid Number Length.</span><br>
+                                    <span style="color: #881337; font-size: 16px; font-weight: 700;">For <b>{detected_region}</b>, standard numbers must be exactly <b>{len_str} digits</b> long.<br>
+                                    <span style="color: #f43f5e; font-weight: 800; font-size: 18px; display:block; margin-top:8px;">You entered: {len(cleaned_number)} digits</span></span>
+                                </div>
+                            ''', unsafe_allow_html=True)
                         else:
-                            st.session_state.risk_level = 5
-                        
-                        st.session_state.search_state = 'searching'
-                        extracted_code = country_data[selected_country_string]["code"]
-                        st.session_state.full_number = f"{extracted_code} {phone_number}"
-                        st.session_state.detected_region = detected_region
-                        st.rerun()
+                            # Prediction yahan hogi
+                            from src.mlproject.pipelines.prediction_pipeline import CustomData, PredictPipeline
 
-            st.markdown('</div>', unsafe_allow_html=True)
+                            data = CustomData(
+                            phone_number=phone_number.strip(),
+                            message_text=spam_text.strip()
+                            )
+                            df = data.get_data_as_data_frame()
+
+                            pipeline = PredictPipeline()
+
+                            # Result store karo session mein
+                            result, confidence = pipeline.predict(df)
+                            st.session_state.is_spam = bool(result == 1)
+                            st.session_state.confidence = confidence
+
+                            if confidence <= 20:
+                                st.session_state.risk_level = 1
+                            elif confidence <= 40:
+                                st.session_state.risk_level = 2
+                            elif confidence <= 60:
+                                st.session_state.risk_level = 3
+                            elif confidence <= 80:
+                                st.session_state.risk_level = 4
+                            else:
+                                st.session_state.risk_level = 5
+
+                            extracted_code = country_data[selected_country_string]["code"]
+                            st.session_state.full_number = f"{extracted_code} {phone_number}"
+                            st.session_state.detected_region = detected_region
+                            
+                            # Use state change without rerun to avoid layout jerk
+                            st.session_state.search_state = 'searching'
+                            st.rerun()
 
         elif st.session_state.search_state in ['searching', 'done']:
-            st.markdown('<div style="max-width: 1200px; margin: 0 auto; padding: 0 40px; margin-top:50px;">', unsafe_allow_html=True)
-            target_num = st.session_state.get('full_number', '')
-            
-            st.markdown(f'''
-                <div class="progress-box">
-                    <div class="progress-main-container">
-                        <div class="top-pulse-dot"></div>
-                        <div class="progress-main-text">Searching for <span style="color:#0CD25F;">{target_num}</span></div>
-                    </div>
-                    <div class="progress-sub-text">Scanning 5.7M+ records in our database...<br><span style="color:#0CD25F; font-size: 14px; font-weight: 800;">About 20 seconds left...</span></div>
-                    <div class="steps-container">
-            ''', unsafe_allow_html=True)
-            
-            progress_placeholder = st.empty()
-            
-            steps = [
-                "Number validated",
-                "Checking carrier database",
-                "Searching 5.7M+ records...",
-                "Cross-referencing reports",
-                "Compiling results"
-            ]
-            
-            if st.session_state.search_state == 'searching':
-                for i in range(len(steps) + 1):
-                    html = ""
-                    for j, step in enumerate(steps):
-                        if j < i:
-                            html += f'<div class="step-item done-step"><div class="icon-done">✓</div> {step}</div>'
-                        elif j == i:
-                            html += f'<div class="step-item active-step"><div class="icon-spin-smooth"></div> {step}</div>'
-                        else:
-                            html += f'<div class="step-item"><div class="icon-wait"></div> {step}</div>'
-                    
-                    progress_placeholder.markdown(html, unsafe_allow_html=True)
-                    time.sleep(2.0) 
-                    
-                st.session_state.search_state = 'done'
-                st.rerun()
-                
-            elif st.session_state.search_state == 'done':
-                html = ""
-                for step in steps:
-                    html += f'<div class="step-item done-step"><div class="icon-done">✓</div> {step}</div>'
-                progress_placeholder.markdown(html, unsafe_allow_html=True)
-                st.markdown('</div></div>', unsafe_allow_html=True) 
-
-                # SESSION STATE SE VARIABLES NIKALO
+            with content_container:
                 target_num = st.session_state.get('full_number', '')
-                detected_region = st.session_state.get('detected_region', 'Unknown Region')
 
-                # --- YAHAN DOST BACKEND SE DATA LAYEGI ---
-                # Session se actual prediction lo
-                is_spam = st.session_state.get('is_spam', False)
-                risk_level = st.session_state.get('risk_level', 1)
-                confidence = st.session_state.get('confidence', 0.0)
-                line_type = "Mobile Phone"
-                
-                # Formatting based on Backend response
-                if risk_level >= 4:
-                    spam_status_ui = "<span style='color: #e11d48;'>Yes (High Risk)</span>"
-                    rec_bg = "linear-gradient(135deg, #fff1f2 0%, #ffe4e6 100%)"
-                    rec_border = "#e11d48"
-                    recommendation = f"This number ({target_num}) has been flagged as highly suspicious based on our recent network analysis. We strongly recommend that you do not click on any provided links, avoid sharing personal or financial information, and block this number immediately to ensure your safety."
-                elif risk_level == 3:
-                    spam_status_ui = "<span style='color: #e11d48;'>Yes (Moderate)</span>"
-                    rec_bg = "linear-gradient(135deg, #fef3c7 0%, #fef9c3 100%)"
-                    rec_border = "#f59e0b"
-                    recommendation = f"This number ({target_num}) shows suspicious behavior and may be unsafe. Please be cautious, avoid clicking links, and verify the sender before responding."
-                elif risk_level == 2:
-                    spam_status_ui = "<span style='color: #2563eb;'>No</span>"
-                    rec_bg = "linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%)"
-                    rec_border = "#2563eb"
-                    recommendation = f"This number ({target_num}) currently appears low-risk, but use normal caution with unknown contacts and do not share sensitive information unnecessarily."
-                else:
-                    spam_status_ui = "<span style='color: #166534;'>NO (Safe)</span>"
-                    rec_bg = "linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%)"
-                    rec_border = "#0CD25F"
-                    recommendation = f"This number ({target_num}) appears safe based on our checks. You can proceed, but always remain careful with unfamiliar senders."
-                
-                # Calculate marker position percentage for CSS Slider (Risk 1=10%, 3=50%, 5=90%)
-                marker_position = (risk_level / 5) * 100
-                if marker_position > 95: marker_position = 95
-                if marker_position < 5: marker_position = 5
-                # -----------------------------------------
+                steps = [
+                    "Number validated",
+                    "Checking carrier database",
+                    "Searching 5.7M+ records...",
+                    "Cross-referencing reports",
+                    "Compiling results"
+                ]
+
+                delay = 1.0
+                approx_time = int(round(delay * (len(steps) + 1)))
 
                 st.markdown(f'''
-    <div style="background: {rec_bg}; border-left: 6px solid {rec_border}; border-radius: 16px; padding: 24px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); font-family: 'Nunito', sans-serif;">
-    <div style="font-size: 24px; font-weight: 900; margin-bottom: 12px; color: #0f172a; display: flex; align-items: center; gap: 10px;">
-    Is Spam: {spam_status_ui}
-    </div>
-    <div style="font-size: 16px; color: #334155; font-weight: 600; line-height: 1.6;">
-    <strong style="color: #0f172a;">✨ AI Recommendation:</strong> {recommendation}
-    </div>
-    </div>
-
-    <div class="intel-card">
-    <div class="intel-header">
-    <div class="intel-header-icon">📱</div>
-    <div>
-    <div class="intel-header-title">Number Intelligence</div>
-    <div class="intel-header-sub">{target_num} • {detected_region}</div>
-    </div>
-    </div>
-
-    <div class="info-row">
-    <div class="info-label">Name</div>
-    <div class="info-value">Unknown</div>
-    </div>
-
-    <div class="info-row">
-    <div class="info-label">Country</div>
-    <div class="info-value">{detected_region}</div>
-    </div>
-
-    <div class="info-row">
-    <div class="info-label">Line Type</div>
-    <div class="info-value">
-    {line_type}
-    <div class="info-desc">Mobile prefixes can identify the original issuing network, although portability may mean the active carrier is different today.</div>
-    </div>
-    </div>
-
-    <div class="info-row">
-    <div class="info-label">Location</div>
-    <div class="info-value">
-    {detected_region} Numbering Area
-    <div class="info-desc">Estimated based on prefix.</div>
-    </div>
-    </div>
-
-    <div class="info-row">
-    <div class="info-label">Carrier</div>
-    <div class="info-value">
-    Unknown / Ported
-    <div class="info-desc">Prefix-based carrier data can change after number portability.</div>
-    </div>
-    </div>
-
-    <div class="info-row">
-    <div class="info-label">Number Formats</div>
-    <div class="info-value format-pills">
-    <span class="format-pill">{target_num.replace(' ', '')}</span>
-    <span class="format-pill">{target_num}</span>
-    <span class="format-pill">{target_num.replace('+', '00')}</span>
-    </div>
-    </div>
-
-    <div class="info-row">
-    <div class="info-label">Risk Level</div>
-    <div class="info-value" style="width: 100%;">
-    <div style="font-size: 16px; font-weight: 800; margin-bottom: 8px;">Level {risk_level} / 5</div>
-    <div class="risk-slider-container">
-    <div class="risk-track"></div>
-    <div class="risk-marker" style="left: calc({marker_position}% - 3px);"></div>
-    </div>
-    <div class="risk-labels">
-    <span>Safe</span>
-    <span>Moderate</span>
-    <span>High Risk</span>
-    </div>
-    </div>
-    </div>
-
-    <div class="info-row">
-    <div class="info-label">Threat Level</div>
-    <div class="info-value">{confidence}%
-    </div>
-    </div>
-    </div>
-
+                    <div class="progress-box">
+                        <div class="progress-main-container">
+                            <div class="top-pulse-dot"></div>
+                            <div class="progress-main-text">Searching for <span style="color:#0CD25F;">{target_num}</span></div>
+                        </div>
+                        <div class="progress-sub-text">Scanning 5.7M+ records in our database...<br><span style="color:#0CD25F; font-size: 14px; font-weight: 800;">About {approx_time} seconds left...</span></div>
+                        <div class="steps-container">
                 ''', unsafe_allow_html=True)
-                
-                report_data = f"WhatsTrue Premium Report\nTarget Number: {target_num}\nRegion: {detected_region}\nRisk Level: {risk_level}/5\nIs Spam: {'Yes' if is_spam else 'No'}\nGenerated Date: 2026-05-25"
-                
-                dl_col1, dl_col2, dl_col3 = st.columns([1, 0.7, 1])
-                with dl_col2:
-                    st.download_button(
-                        label="📥 DOWNLOAD FULL REPORT",
-                        data=report_data,
-                        file_name=f"whatstrue_report_{target_num.replace(' ','')}.txt",
-                        mime="text/plain",
-                        use_container_width=True
-                    )
 
-            st.markdown('<br>', unsafe_allow_html=True)
-            col1, col2, col3 = st.columns([1, 0.7, 1])
-            with col2:
-                if st.button("← START NEW SEARCH", use_container_width=True):
+                progress_placeholder = st.empty()
+
+                if st.session_state.search_state == 'searching':
+                    for i in range(len(steps) + 1):
+                        html = ""
+                        for j, step in enumerate(steps):
+                            if j < i:
+                                html += f'<div class="step-item done-step"><div class="icon-done">✓</div> {step}</div>'
+                            elif j == i:
+                                html += f'<div class="step-item active-step"><div class="icon-spin-smooth"></div> {step}</div>'
+                            else:
+                                html += f'<div class="step-item"><div class="icon-wait"></div> {step}</div>'
+
+                        progress_placeholder.markdown(html, unsafe_allow_html=True)
+                        time.sleep(delay)
+
+                    st.session_state.search_state = 'done'
+                    st.rerun()
+
+                elif st.session_state.search_state == 'done':
+                    html = ""
+                    for step in steps:
+                        html += f'<div class="step-item done-step"><div class="icon-done">✓</div> {step}</div>'
+                    progress_placeholder.markdown(html, unsafe_allow_html=True)
+                    st.markdown('</div></div>', unsafe_allow_html=True) 
+
+                    # SESSION STATE SE VARIABLES NIKALO
+                    target_num = st.session_state.get('full_number', '')
+                    detected_region = st.session_state.get('detected_region', 'Unknown Region')
+
+                    # --- YAHAN DOST BACKEND SE DATA LAYEGI ---
+                    # Session se actual prediction lo
+                    is_spam = st.session_state.get('is_spam', False)
+                    risk_level = st.session_state.get('risk_level', 1)
+                    confidence = st.session_state.get('confidence', 0.0)
+                    line_type = "Mobile Phone"
+
+                    # Formatting based on Backend response
+                    if risk_level >= 4:
+                        spam_status_ui = "<span style='color: #e11d48;'>Yes (High Risk)</span>"
+                        rec_bg = "linear-gradient(135deg, #fff1f2 0%, #ffe4e6 100%)"
+                        rec_border = "#e11d48"
+                        recommendation = f"This number ({target_num}) has been flagged as highly suspicious based on our recent network analysis. We strongly recommend that you do not click on any provided links, avoid sharing personal or financial information, and block this number immediately to ensure your safety."
+                    elif risk_level == 3:
+                        spam_status_ui = "<span style='color: #e11d48;'>Yes (Moderate)</span>"
+                        rec_bg = "linear-gradient(135deg, #fef3c7 0%, #fef9c3 100%)"
+                        rec_border = "#f59e0b"
+                        recommendation = f"This number ({target_num}) shows suspicious behavior and may be unsafe. Please be cautious, avoid clicking links, and verify the sender before responding."
+                    elif risk_level == 2:
+                        spam_status_ui = "<span style='color: #2563eb;'>No</span>"
+                        rec_bg = "linear-gradient(135deg, #eff6ff 0%, #dbeafe 100%)"
+                        rec_border = "#2563eb"
+                        recommendation = f"This number ({target_num}) currently appears low-risk, but use normal caution with unknown contacts and do not share sensitive information unnecessarily."
+                    else:
+                        spam_status_ui = "<span style='color: #166534;'>NO (Safe)</span>"
+                        rec_bg = "linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%)"
+                        rec_border = "#0CD25F"
+                        recommendation = f"This number ({target_num}) appears safe based on our checks. You can proceed, but always remain careful with unfamiliar senders."
+
+                    # Calculate marker position percentage for CSS Slider (Risk 1=10%, 3=50%, 5=90%)
+                    marker_position = (risk_level / 5) * 100
+                    if marker_position > 95: marker_position = 95
+                    if marker_position < 5: marker_position = 5
+                    # -----------------------------------------
+
+                    st.markdown(f'''
+        <div style="background: {rec_bg}; border-left: 6px solid {rec_border}; border-radius: 16px; padding: 24px; margin-bottom: 30px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); font-family: 'Nunito', sans-serif;">
+        <div style="font-size: 24px; font-weight: 900; margin-bottom: 12px; color: #0f172a; display: flex; align-items: center; gap: 10px;">
+        Is Spam: {spam_status_ui}
+        </div>
+        <div style="font-size: 16px; color: #334155; font-weight: 600; line-height: 1.6;">
+        <strong style="color: #0f172a;">✨ AI Recommendation:</strong> {recommendation}
+        </div>
+        </div>
+
+        <div class="intel-card">
+        <div class="intel-header">
+        <div class="intel-header-icon">📱</div>
+        <div>
+        <div class="intel-header-title">Number Intelligence</div>
+        <div class="intel-header-sub">{target_num} • {detected_region}</div>
+        </div>
+        </div>
+
+        <div class="info-row">
+        <div class="info-label">Name</div>
+        <div class="info-value">Unknown</div>
+        </div>
+
+        <div class="info-row">
+        <div class="info-label">Country</div>
+        <div class="info-value">{detected_region}</div>
+        </div>
+
+        <div class="info-row">
+        <div class="info-label">Line Type</div>
+        <div class="info-value">
+        {line_type}
+        <div class="info-desc">Mobile prefixes can identify the original issuing network, although portability may mean the active carrier is different today.</div>
+        </div>
+        </div>
+
+        <div class="info-row">
+        <div class="info-label">Location</div>
+        <div class="info-value">
+        {detected_region} Numbering Area
+        <div class="info-desc">Estimated based on prefix.</div>
+        </div>
+        </div>
+
+        <div class="info-row">
+        <div class="info-label">Carrier</div>
+        <div class="info-value">
+        Unknown / Ported
+        <div class="info-desc">Prefix-based carrier data can change after number portability.</div>
+        </div>
+        </div>
+
+        <div class="info-row">
+        <div class="info-label">Number Formats</div>
+        <div class="info-value format-pills">
+        <span class="format-pill">{target_num.replace(' ', '')}</span>
+        <span class="format-pill">{target_num}</span>
+        <span class="format-pill">{target_num.replace('+', '00')}</span>
+        </div>
+        </div>
+
+        <div class="info-row">
+        <div class="info-label">Risk Level</div>
+        <div class="info-value" style="width: 100%;">
+        <div style="font-size: 16px; font-weight: 800; margin-bottom: 8px;">Level {risk_level} / 5</div>
+        <div class="risk-slider-container">
+        <div class="risk-track"></div>
+        <div class="risk-marker" style="left: calc({marker_position}% - 3px);"></div>
+        </div>
+        <div class="risk-labels">
+        <span>Safe</span>
+        <span>Moderate</span>
+        <span>High Risk</span>
+        </div>
+        </div>
+        </div>
+
+        <div class="info-row">
+        <div class="info-label">Threat Level</div>
+        <div class="info-value">{confidence}%
+        </div>
+        </div>
+        </div>
+
+                    ''', unsafe_allow_html=True)
+
+                    report_data = f"WhatsTrue Premium Report\nTarget Number: {target_num}\nRegion: {detected_region}\nRisk Level: {risk_level}/5\nIs Spam: {'Yes' if is_spam else 'No'}\nGenerated Date: 2026-05-25"
+
+                    dl_col1, dl_col2, dl_col3 = st.columns([1, 0.7, 1])
+                    with dl_col2:
+                        st.download_button(
+                            label="📥 DOWNLOAD FULL REPORT",
+                            data=report_data,
+                            file_name=f"whatstrue_report_{target_num.replace(' ','')}.txt",
+                            mime="text/plain",
+                            use_container_width=True
+                        )
+
+        st.markdown('</div>', unsafe_allow_html=True)
+        st.markdown("<br>", unsafe_allow_html=True)
+        col1, col2, col3 = st.columns([1, 0.7, 1])
+        with col2:
+            if st.button("← START NEW SEARCH", use_container_width=True):
                     st.session_state.search_state = 'idle'
                     st.rerun()
-                
+
         st.markdown('</div>', unsafe_allow_html=True)
 
     # ==========================================
@@ -1452,3 +1469,5 @@ def run_ui():
         </div>
     </div>
     """, unsafe_allow_html=True)
+
+
