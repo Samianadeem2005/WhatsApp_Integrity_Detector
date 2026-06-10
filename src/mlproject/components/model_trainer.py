@@ -36,7 +36,6 @@ class ModelTrainer:
                 "Random Forest": RandomForestClassifier(random_state=42),
                 "Decision Tree": DecisionTreeClassifier(random_state=42),
                 "Gradient Boosting": GradientBoostingClassifier(random_state=42),
-                "Logistic Regression": LogisticRegression(random_state=42),
                 "XGBClassifier": XGBClassifier(random_state=42),
                 "AdaBoost Classifier": AdaBoostClassifier(random_state=42),
             }
@@ -53,19 +52,12 @@ class ModelTrainer:
                     'subsample': [0.7, 0.8, 0.9],
                     'n_estimators': [16, 32, 64, 128]
                 },
-                "Logistic Regression": {},
-                "XGBClassifier": {
-                    'learning_rate': [0.1, 0.05, 0.01],
-                    'n_estimators': [16, 32, 64, 128]
-                },
                 "AdaBoost Classifier": {
                     'learning_rate': [0.1, 0.5, 1.0],
                     'n_estimators': [16, 32, 64, 128]
                 }
             }
 
-            # NOTE: Apne utils.py ke evaluate_models function ke andar bhi 
-            # r2_score ki jagah accuracy_score ya f1_score lagana parega!
             logging.info("Evaluating models based on classification metrics")
             model_report: dict = evaluate_models(
                 X_train=X_train, y_train=y_train, X_test=X_test, y_test=y_test,
